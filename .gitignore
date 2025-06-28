@@ -1,0 +1,44 @@
+# === Node.js / React ===
+node_modules/
+build/
+dist/
+*.log
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# === Flask ===
+instance/
+.webassets-cache
+
+# === OS Specific ===
+.DS_Store
+Thumbs.db
+
+# === Environment files ===
+.env
+.env.*  # like .env.local, .env.dev, etc.
+
+# === VSCode ===
+.vscode/
+
+# === Others ===
+coverage/
+*.sqlite3
+*.db
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# === Mac/Linux system files ===
+*.~lock.*
