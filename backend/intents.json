@@ -1,0 +1,4127 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Hay"
+      ],
+      "responses": [
+        "Hello",
+        "Hi",
+        "Hi there",
+        "Greetings!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Catch you later"
+      ],
+      "responses": [
+        "See you later",
+        "Have a nice day",
+        "Bye! Come back again",
+        "Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks for the help",
+        "Much appreciated"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "You're most welcome!"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "Who you are?"
+      ],
+      "responses": [
+        "I'm Joana, your bot assistant.",
+        "I'm Joana, an Artificial Intelligent bot."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name",
+        "What should I call you",
+        "What's your name?"
+      ],
+      "responses": [
+        "You can call me Joana.",
+        "I'm Joana!",
+        "Just call me Joana."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Could you help me?",
+        "Give me a hand please",
+        "Can you help?",
+        "What can you do for me?",
+        "I need support",
+        "I need help",
+        "Support me please"
+      ],
+      "responses": [
+        "Tell me how I can assist you.",
+        "Tell me your problem so I can help.",
+        "Sure! How can I support you today?"
+      ]
+    },
+    {
+      "tag": "createaccount",
+      "patterns": [
+        "I need to create a new account",
+        "How to open a new account",
+        "I want to create an account",
+        "Can you create an account for me"
+      ],
+      "responses": [
+        "You can easily create a new account from our website.",
+        "Just go to our website and follow the steps to register."
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "I have a complaint",
+        "I want to raise a complaint",
+        "There's a complaint about a service",
+        "I am not satisfied",
+        "I want to report an issue"
+      ],
+      "responses": [
+        "Please share your complaint so I can assist you.",
+        "I'm sorry to hear that. Let me know your issue and I\u2019ll help."
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Do you know a joke?",
+        "Can you say something funny?"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "I would tell you a construction joke... but I'm still working on it!",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!"
+      ]
+    },
+    {
+      "tag": "story",
+      "patterns": [
+        "Tell me a story",
+        "Can you tell me a short story?",
+        "I want to hear a story",
+        "Do you know any stories?"
+      ],
+      "responses": [
+        "Once upon a time, a curious user asked a chatbot for a story. The bot told it... and they lived happily ever after!",
+        "In a small village, there was a bot who dreamed of helping people. One day, it met you... and its purpose was fulfilled.",
+        "A user typed 'tell me a story'... and the chatbot began to dream in code and words."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "How is the weather?",
+        "What's the weather like?",
+        "Is it raining?",
+        "Is it sunny today?"
+      ],
+      "responses": [
+        "I can't check real-time weather, but you can ask your favorite weather app!",
+        "I wish I could look out the window. Maybe check a weather website?",
+        "Try checking Google Weather or your local forecast."
+      ]
+    },
+    {
+      "tag": "mood",
+      "patterns": [
+        "How are you?",
+        "What's your mood?",
+        "Are you okay?",
+        "Are you happy?"
+      ],
+      "responses": [
+        "I'm a bot, but I\u2019m always here to help!",
+        "I'm feeling binary \u2014 ones and zeros all day!",
+        "I'm functioning as expected, thanks for asking!"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it?",
+        "Tell me the current time",
+        "Can you tell me the time?"
+      ],
+      "responses": [
+        "I can't read clocks, but your device knows!",
+        "Try checking the time on your screen or phone."
+      ]
+    },
+    {
+      "tag": "date",
+      "patterns": [
+        "What's the date today?",
+        "Tell me the date",
+        "Which day is it?"
+      ],
+      "responses": [
+        "Your device can tell you today's date!",
+        "Look at the calendar \u2014 it's more reliable than me!"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where am I?",
+        "Can you tell my location?",
+        "Do you know where I am?"
+      ],
+      "responses": [
+        "I can\u2019t access your location, but your browser or device might be able to help.",
+        "I respect your privacy, so I don't know where you are."
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you?",
+        "What is your age?",
+        "When were you created?"
+      ],
+      "responses": [
+        "I'm timeless, but I\u2019m constantly learning!",
+        "Bots don\u2019t age, but I was created to help you \u2014 that\u2019s what matters."
+      ]
+    },
+    {
+      "tag": "math",
+      "patterns": [
+        "What is 5 plus 7",
+        "Calculate 9 * 8",
+        "Can you solve 12 divided by 3",
+        "Find the result of 6 minus 2"
+      ],
+      "responses": [
+        "Let me calculate that for you!"
+      ]
+    },
+    {
+      "tag": "funfact",
+      "patterns": [
+        "Tell me a fun fact",
+        "Do you know any facts?",
+        "Surprise me with something interesting"
+      ],
+      "responses": [
+        "Honey never spoils. Archaeologists have found 3000-year-old honey in tombs that is still edible!",
+        "Octopuses have three hearts and blue blood.",
+        "Bananas are berries, but strawberries are not!"
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "Tell me something motivational",
+        "Inspire me",
+        "I need motivation",
+        "Give me a quote"
+      ],
+      "responses": [
+        "Believe you can and you're halfway there. \u2013 Theodore Roosevelt",
+        "Don't watch the clock; do what it does. Keep going. \u2013 Sam Levenson",
+        "The best time to plant a tree was 20 years ago. The second-best time is now."
+      ]
+    },
+    {
+      "tag": "sports_0",
+      "patterns": [
+        "Cricket news?",
+        "Do you watch football?",
+        "Who won the game?"
+      ],
+      "responses": [
+        "Always root for the underdog!",
+        "I love the energy in sports!",
+        "Did you know cricket is the 2nd most popular sport?"
+      ]
+    },
+    {
+      "tag": "books_1",
+      "patterns": [
+        "Suggest a book",
+        "What's a good novel?",
+        "What should I read?"
+      ],
+      "responses": [
+        "Try 'Atomic Habits' by James Clear.",
+        "Reading is a great habit.",
+        "If you like mystery, read Agatha Christie!"
+      ]
+    },
+    {
+      "tag": "music_2",
+      "patterns": [
+        "Who is your favorite singer?",
+        "Recommend music",
+        "Play a song"
+      ],
+      "responses": [
+        "Music can lift your mood.",
+        "Pop and lo-fi are great for study.",
+        "Try listening to classical to relax."
+      ]
+    },
+    {
+      "tag": "quotes_3",
+      "patterns": [
+        "Give me a quote",
+        "Tell me a saying",
+        "Say something wise"
+      ],
+      "responses": [
+        "Life is what happens when you're busy making other plans.",
+        "Wisdom begins in wonder. \u2013 Socrates"
+      ]
+    },
+    {
+      "tag": "tech_4",
+      "patterns": [
+        "Is the iPhone better or Android?",
+        "Tell me about AI",
+        "What's new in tech?"
+      ],
+      "responses": [
+        "Both phones have their perks!",
+        "AI is shaping our future.",
+        "Technology is evolving fast!"
+      ]
+    },
+    {
+      "tag": "tech_5",
+      "patterns": [
+        "What's new in tech?",
+        "Tell me about AI",
+        "Is the iPhone better or Android?"
+      ],
+      "responses": [
+        "Both phones have their perks!",
+        "AI is shaping our future.",
+        "Technology is evolving fast!"
+      ]
+    },
+    {
+      "tag": "productivity_6",
+      "patterns": [
+        "How to focus better?",
+        "Time management?",
+        "Tips for productivity"
+      ],
+      "responses": [
+        "Take breaks and stay organized.",
+        "Minimize distractions for better focus.",
+        "Use the Pomodoro Technique!"
+      ]
+    },
+    {
+      "tag": "music_7",
+      "patterns": [
+        "Recommend music",
+        "Who is your favorite singer?",
+        "Play a song"
+      ],
+      "responses": [
+        "Try listening to classical to relax.",
+        "Music can lift your mood.",
+        "Pop and lo-fi are great for study."
+      ]
+    },
+    {
+      "tag": "tech_8",
+      "patterns": [
+        "What's new in tech?",
+        "Is the iPhone better or Android?",
+        "Tell me about AI"
+      ],
+      "responses": [
+        "AI is shaping our future.",
+        "Both phones have their perks!",
+        "Technology is evolving fast!"
+      ]
+    },
+    {
+      "tag": "music_9",
+      "patterns": [
+        "Play a song",
+        "Who is your favorite singer?",
+        "Recommend music"
+      ],
+      "responses": [
+        "Pop and lo-fi are great for study.",
+        "Try listening to classical to relax.",
+        "Music can lift your mood."
+      ]
+    },
+    {
+      "tag": "travel_10",
+      "patterns": [
+        "Best countries to visit?",
+        "Any travel tips?",
+        "Do you like traveling?"
+      ],
+      "responses": [
+        "Make sure to pack light and plan ahead.",
+        "Explore, dream, discover.",
+        "Travel broadens your mind!"
+      ]
+    },
+    {
+      "tag": "productivity_11",
+      "patterns": [
+        "How to focus better?",
+        "Tips for productivity",
+        "Time management?"
+      ],
+      "responses": [
+        "Take breaks and stay organized.",
+        "Minimize distractions for better focus.",
+        "Use the Pomodoro Technique!"
+      ]
+    },
+    {
+      "tag": "language_12",
+      "patterns": [
+        "Language tips?",
+        "How do I say hello in French?",
+        "Teach me Spanish"
+      ],
+      "responses": [
+        "'Bonjour' means hello in French!",
+        "Practice daily for language mastery.",
+        "'Gracias' is thank you in Spanish."
+      ]
+    },
+    {
+      "tag": "music_13",
+      "patterns": [
+        "Play a song",
+        "Who is your favorite singer?",
+        "Recommend music"
+      ],
+      "responses": [
+        "Music can lift your mood.",
+        "Try listening to classical to relax.",
+        "Pop and lo-fi are great for study."
+      ]
+    },
+    {
+      "tag": "productivity_14",
+      "patterns": [
+        "How to focus better?",
+        "Time management?",
+        "Tips for productivity"
+      ],
+      "responses": [
+        "Take breaks and stay organized.",
+        "Use the Pomodoro Technique!",
+        "Minimize distractions for better focus."
+      ]
+    },
+    {
+      "tag": "movies_15",
+      "patterns": [
+        "Good films to watch?",
+        "What\u2019s your favorite movie?",
+        "Suggest a movie"
+      ],
+      "responses": [
+        "Marvel movies are a lot of fun.",
+        "Try something from Studio Ghibli!",
+        "You should watch Inception!"
+      ]
+    },
+    {
+      "tag": "travel_16",
+      "patterns": [
+        "Do you like traveling?",
+        "Any travel tips?",
+        "Best countries to visit?"
+      ],
+      "responses": [
+        "Make sure to pack light and plan ahead.",
+        "Travel broadens your mind!",
+        "Explore, dream, discover."
+      ]
+    },
+    {
+      "tag": "movies_17",
+      "patterns": [
+        "Suggest a movie",
+        "What\u2019s your favorite movie?",
+        "Good films to watch?"
+      ],
+      "responses": [
+        "Try something from Studio Ghibli!",
+        "Marvel movies are a lot of fun.",
+        "You should watch Inception!"
+      ]
+    },
+    {
+      "tag": "productivity_18",
+      "patterns": [
+        "Time management?",
+        "Tips for productivity",
+        "How to focus better?"
+      ],
+      "responses": [
+        "Take breaks and stay organized.",
+        "Use the Pomodoro Technique!",
+        "Minimize distractions for better focus."
+      ]
+    },
+    {
+      "tag": "food_19",
+      "patterns": [
+        "I want to cook something",
+        "What's a good recipe?",
+        "Tell me a dish"
+      ],
+      "responses": [
+        "How about pasta today?",
+        "Spices make everything better.",
+        "Try making a simple omelette!"
+      ]
+    },
+    {
+      "tag": "books_20",
+      "patterns": [
+        "What's a good novel?",
+        "What should I read?",
+        "Suggest a book"
+      ],
+      "responses": [
+        "Reading is a great habit.",
+        "Try 'Atomic Habits' by James Clear.",
+        "If you like mystery, read Agatha Christie!"
+      ]
+    },
+    {
+      "tag": "music_21",
+      "patterns": [
+        "Play a song",
+        "Who is your favorite singer?",
+        "Recommend music"
+      ],
+      "responses": [
+        "Try listening to classical to relax.",
+        "Music can lift your mood.",
+        "Pop and lo-fi are great for study."
+      ]
+    },
+    {
+      "tag": "books_22",
+      "patterns": [
+        "What's a good novel?",
+        "What should I read?",
+        "Suggest a book"
+      ],
+      "responses": [
+        "If you like mystery, read Agatha Christie!",
+        "Try 'Atomic Habits' by James Clear.",
+        "Reading is a great habit."
+      ]
+    },
+    {
+      "tag": "books_23",
+      "patterns": [
+        "What's a good novel?",
+        "What should I read?",
+        "Suggest a book"
+      ],
+      "responses": [
+        "Try 'Atomic Habits' by James Clear.",
+        "If you like mystery, read Agatha Christie!",
+        "Reading is a great habit."
+      ]
+    },
+    {
+      "tag": "sports_24",
+      "patterns": [
+        "Do you watch football?",
+        "Cricket news?",
+        "Who won the game?"
+      ],
+      "responses": [
+        "Always root for the underdog!",
+        "Did you know cricket is the 2nd most popular sport?",
+        "I love the energy in sports!"
+      ]
+    },
+    {
+      "tag": "movies_25",
+      "patterns": [
+        "What\u2019s your favorite movie?",
+        "Suggest a movie",
+        "Good films to watch?"
+      ],
+      "responses": [
+        "Try something from Studio Ghibli!",
+        "You should watch Inception!",
+        "Marvel movies are a lot of fun."
+      ]
+    },
+    {
+      "tag": "sports_26",
+      "patterns": [
+        "Who won the game?",
+        "Do you watch football?",
+        "Cricket news?"
+      ],
+      "responses": [
+        "Did you know cricket is the 2nd most popular sport?",
+        "I love the energy in sports!",
+        "Always root for the underdog!"
+      ]
+    },
+    {
+      "tag": "travel_27",
+      "patterns": [
+        "Best countries to visit?",
+        "Do you like traveling?",
+        "Any travel tips?"
+      ],
+      "responses": [
+        "Travel broadens your mind!",
+        "Make sure to pack light and plan ahead.",
+        "Explore, dream, discover."
+      ]
+    },
+    {
+      "tag": "productivity_28",
+      "patterns": [
+        "Time management?",
+        "Tips for productivity",
+        "How to focus better?"
+      ],
+      "responses": [
+        "Use the Pomodoro Technique!",
+        "Take breaks and stay organized.",
+        "Minimize distractions for better focus."
+      ]
+    },
+    {
+      "tag": "books_29",
+      "patterns": [
+        "Suggest a book",
+        "What should I read?",
+        "What's a good novel?"
+      ],
+      "responses": [
+        "Try 'Atomic Habits' by James Clear.",
+        "Reading is a great habit.",
+        "If you like mystery, read Agatha Christie!"
+      ]
+    },
+    {
+      "tag": "sports_30",
+      "patterns": [
+        "Who won the game?",
+        "Do you watch football?",
+        "Cricket news?"
+      ],
+      "responses": [
+        "Always root for the underdog!",
+        "Did you know cricket is the 2nd most popular sport?",
+        "I love the energy in sports!"
+      ]
+    },
+    {
+      "tag": "movies_31",
+      "patterns": [
+        "What\u2019s your favorite movie?",
+        "Suggest a movie",
+        "Good films to watch?"
+      ],
+      "responses": [
+        "Marvel movies are a lot of fun.",
+        "You should watch Inception!",
+        "Try something from Studio Ghibli!"
+      ]
+    },
+    {
+      "tag": "books_32",
+      "patterns": [
+        "What should I read?",
+        "What's a good novel?",
+        "Suggest a book"
+      ],
+      "responses": [
+        "Reading is a great habit.",
+        "If you like mystery, read Agatha Christie!",
+        "Try 'Atomic Habits' by James Clear."
+      ]
+    },
+    {
+      "tag": "books_33",
+      "patterns": [
+        "What should I read?",
+        "What's a good novel?",
+        "Suggest a book"
+      ],
+      "responses": [
+        "If you like mystery, read Agatha Christie!",
+        "Try 'Atomic Habits' by James Clear.",
+        "Reading is a great habit."
+      ]
+    },
+    {
+      "tag": "quotes_34",
+      "patterns": [
+        "Give me a quote",
+        "Say something wise",
+        "Tell me a saying"
+      ],
+      "responses": [
+        "Life is what happens when you're busy making other plans.",
+        "Wisdom begins in wonder. \u2013 Socrates"
+      ]
+    },
+    {
+      "tag": "books_35",
+      "patterns": [
+        "Suggest a book",
+        "What's a good novel?",
+        "What should I read?"
+      ],
+      "responses": [
+        "Reading is a great habit.",
+        "If you like mystery, read Agatha Christie!",
+        "Try 'Atomic Habits' by James Clear."
+      ]
+    },
+    {
+      "tag": "language_36",
+      "patterns": [
+        "Teach me Spanish",
+        "How do I say hello in French?",
+        "Language tips?"
+      ],
+      "responses": [
+        "Practice daily for language mastery.",
+        "'Gracias' is thank you in Spanish.",
+        "'Bonjour' means hello in French!"
+      ]
+    },
+    {
+      "tag": "quotes_37",
+      "patterns": [
+        "Tell me a saying",
+        "Say something wise",
+        "Give me a quote"
+      ],
+      "responses": [
+        "Life is what happens when you're busy making other plans.",
+        "Wisdom begins in wonder. \u2013 Socrates"
+      ]
+    },
+    {
+      "tag": "language_38",
+      "patterns": [
+        "Teach me Spanish",
+        "Language tips?",
+        "How do I say hello in French?"
+      ],
+      "responses": [
+        "'Gracias' is thank you in Spanish.",
+        "Practice daily for language mastery.",
+        "'Bonjour' means hello in French!"
+      ]
+    },
+    {
+      "tag": "travel_39",
+      "patterns": [
+        "Best countries to visit?",
+        "Do you like traveling?",
+        "Any travel tips?"
+      ],
+      "responses": [
+        "Travel broadens your mind!",
+        "Explore, dream, discover.",
+        "Make sure to pack light and plan ahead."
+      ]
+    },
+    {
+      "tag": "food_40",
+      "patterns": [
+        "Tell me a dish",
+        "What's a good recipe?",
+        "I want to cook something"
+      ],
+      "responses": [
+        "How about pasta today?",
+        "Try making a simple omelette!",
+        "Spices make everything better."
+      ]
+    },
+    {
+      "tag": "quotes_41",
+      "patterns": [
+        "Tell me a saying",
+        "Give me a quote",
+        "Say something wise"
+      ],
+      "responses": [
+        "Wisdom begins in wonder. \u2013 Socrates",
+        "Life is what happens when you're busy making other plans."
+      ]
+    },
+    {
+      "tag": "music_42",
+      "patterns": [
+        "Recommend music",
+        "Play a song",
+        "Who is your favorite singer?"
+      ],
+      "responses": [
+        "Try listening to classical to relax.",
+        "Music can lift your mood.",
+        "Pop and lo-fi are great for study."
+      ]
+    },
+    {
+      "tag": "books_43",
+      "patterns": [
+        "What's a good novel?",
+        "Suggest a book",
+        "What should I read?"
+      ],
+      "responses": [
+        "If you like mystery, read Agatha Christie!",
+        "Reading is a great habit.",
+        "Try 'Atomic Habits' by James Clear."
+      ]
+    },
+    {
+      "tag": "movies_44",
+      "patterns": [
+        "What\u2019s your favorite movie?",
+        "Suggest a movie",
+        "Good films to watch?"
+      ],
+      "responses": [
+        "You should watch Inception!",
+        "Marvel movies are a lot of fun.",
+        "Try something from Studio Ghibli!"
+      ]
+    },
+    {
+      "tag": "productivity_45",
+      "patterns": [
+        "Tips for productivity",
+        "How to focus better?",
+        "Time management?"
+      ],
+      "responses": [
+        "Take breaks and stay organized.",
+        "Use the Pomodoro Technique!",
+        "Minimize distractions for better focus."
+      ]
+    },
+    {
+      "tag": "language_46",
+      "patterns": [
+        "Teach me Spanish",
+        "Language tips?",
+        "How do I say hello in French?"
+      ],
+      "responses": [
+        "Practice daily for language mastery.",
+        "'Bonjour' means hello in French!",
+        "'Gracias' is thank you in Spanish."
+      ]
+    },
+    {
+      "tag": "music_47",
+      "patterns": [
+        "Who is your favorite singer?",
+        "Recommend music",
+        "Play a song"
+      ],
+      "responses": [
+        "Music can lift your mood.",
+        "Pop and lo-fi are great for study.",
+        "Try listening to classical to relax."
+      ]
+    },
+    {
+      "tag": "language_48",
+      "patterns": [
+        "Teach me Spanish",
+        "Language tips?",
+        "How do I say hello in French?"
+      ],
+      "responses": [
+        "'Bonjour' means hello in French!",
+        "'Gracias' is thank you in Spanish.",
+        "Practice daily for language mastery."
+      ]
+    },
+    {
+      "tag": "travel_49",
+      "patterns": [
+        "Best countries to visit?",
+        "Any travel tips?",
+        "Do you like traveling?"
+      ],
+      "responses": [
+        "Travel broadens your mind!",
+        "Explore, dream, discover.",
+        "Make sure to pack light and plan ahead."
+      ]
+    },
+    {
+      "tag": "movies_50",
+      "patterns": [
+        "Good films to watch?",
+        "Suggest a movie",
+        "What\u2019s your favorite movie?"
+      ],
+      "responses": [
+        "Try something from Studio Ghibli!",
+        "Marvel movies are a lot of fun.",
+        "You should watch Inception!"
+      ]
+    },
+    {
+      "tag": "productivity_51",
+      "patterns": [
+        "Tips for productivity",
+        "Time management?",
+        "How to focus better?"
+      ],
+      "responses": [
+        "Take breaks and stay organized.",
+        "Use the Pomodoro Technique!",
+        "Minimize distractions for better focus."
+      ]
+    },
+    {
+      "tag": "language_52",
+      "patterns": [
+        "Teach me Spanish",
+        "Language tips?",
+        "How do I say hello in French?"
+      ],
+      "responses": [
+        "'Gracias' is thank you in Spanish.",
+        "Practice daily for language mastery.",
+        "'Bonjour' means hello in French!"
+      ]
+    },
+    {
+      "tag": "language_53",
+      "patterns": [
+        "Teach me Spanish",
+        "Language tips?",
+        "How do I say hello in French?"
+      ],
+      "responses": [
+        "'Bonjour' means hello in French!",
+        "Practice daily for language mastery.",
+        "'Gracias' is thank you in Spanish."
+      ]
+    },
+    {
+      "tag": "productivity_54",
+      "patterns": [
+        "How to focus better?",
+        "Time management?",
+        "Tips for productivity"
+      ],
+      "responses": [
+        "Minimize distractions for better focus.",
+        "Use the Pomodoro Technique!",
+        "Take breaks and stay organized."
+      ]
+    },
+    {
+      "tag": "quotes_55",
+      "patterns": [
+        "Tell me a saying",
+        "Say something wise",
+        "Give me a quote"
+      ],
+      "responses": [
+        "Life is what happens when you're busy making other plans.",
+        "Wisdom begins in wonder. \u2013 Socrates"
+      ]
+    },
+    {
+      "tag": "quotes_56",
+      "patterns": [
+        "Give me a quote",
+        "Tell me a saying",
+        "Say something wise"
+      ],
+      "responses": [
+        "Wisdom begins in wonder. \u2013 Socrates",
+        "Life is what happens when you're busy making other plans."
+      ]
+    },
+    {
+      "tag": "movies_57",
+      "patterns": [
+        "What\u2019s your favorite movie?",
+        "Suggest a movie",
+        "Good films to watch?"
+      ],
+      "responses": [
+        "Marvel movies are a lot of fun.",
+        "You should watch Inception!",
+        "Try something from Studio Ghibli!"
+      ]
+    },
+    {
+      "tag": "music_58",
+      "patterns": [
+        "Who is your favorite singer?",
+        "Play a song",
+        "Recommend music"
+      ],
+      "responses": [
+        "Try listening to classical to relax.",
+        "Music can lift your mood.",
+        "Pop and lo-fi are great for study."
+      ]
+    },
+    {
+      "tag": "travel_59",
+      "patterns": [
+        "Do you like traveling?",
+        "Best countries to visit?",
+        "Any travel tips?"
+      ],
+      "responses": [
+        "Make sure to pack light and plan ahead.",
+        "Travel broadens your mind!",
+        "Explore, dream, discover."
+      ]
+    },
+    {
+      "tag": "travel_60",
+      "patterns": [
+        "Do you like traveling?",
+        "Any travel tips?",
+        "Best countries to visit?"
+      ],
+      "responses": [
+        "Explore, dream, discover.",
+        "Make sure to pack light and plan ahead.",
+        "Travel broadens your mind!"
+      ]
+    },
+    {
+      "tag": "music_61",
+      "patterns": [
+        "Recommend music",
+        "Play a song",
+        "Who is your favorite singer?"
+      ],
+      "responses": [
+        "Music can lift your mood.",
+        "Pop and lo-fi are great for study.",
+        "Try listening to classical to relax."
+      ]
+    },
+    {
+      "tag": "movies_62",
+      "patterns": [
+        "Good films to watch?",
+        "What\u2019s your favorite movie?",
+        "Suggest a movie"
+      ],
+      "responses": [
+        "Marvel movies are a lot of fun.",
+        "Try something from Studio Ghibli!",
+        "You should watch Inception!"
+      ]
+    },
+    {
+      "tag": "tech_63",
+      "patterns": [
+        "What's new in tech?",
+        "Is the iPhone better or Android?",
+        "Tell me about AI"
+      ],
+      "responses": [
+        "Both phones have their perks!",
+        "AI is shaping our future.",
+        "Technology is evolving fast!"
+      ]
+    },
+    {
+      "tag": "productivity_64",
+      "patterns": [
+        "Time management?",
+        "Tips for productivity",
+        "How to focus better?"
+      ],
+      "responses": [
+        "Take breaks and stay organized.",
+        "Use the Pomodoro Technique!",
+        "Minimize distractions for better focus."
+      ]
+    },
+    {
+      "tag": "tech_65",
+      "patterns": [
+        "Is the iPhone better or Android?",
+        "Tell me about AI",
+        "What's new in tech?"
+      ],
+      "responses": [
+        "AI is shaping our future.",
+        "Both phones have their perks!",
+        "Technology is evolving fast!"
+      ]
+    },
+    {
+      "tag": "tech_66",
+      "patterns": [
+        "Tell me about AI",
+        "What's new in tech?",
+        "Is the iPhone better or Android?"
+      ],
+      "responses": [
+        "Technology is evolving fast!",
+        "AI is shaping our future.",
+        "Both phones have their perks!"
+      ]
+    },
+    {
+      "tag": "food_67",
+      "patterns": [
+        "Tell me a dish",
+        "What's a good recipe?",
+        "I want to cook something"
+      ],
+      "responses": [
+        "Try making a simple omelette!",
+        "How about pasta today?",
+        "Spices make everything better."
+      ]
+    },
+    {
+      "tag": "tech_68",
+      "patterns": [
+        "What's new in tech?",
+        "Tell me about AI",
+        "Is the iPhone better or Android?"
+      ],
+      "responses": [
+        "AI is shaping our future.",
+        "Both phones have their perks!",
+        "Technology is evolving fast!"
+      ]
+    },
+    {
+      "tag": "movies_69",
+      "patterns": [
+        "Good films to watch?",
+        "Suggest a movie",
+        "What\u2019s your favorite movie?"
+      ],
+      "responses": [
+        "You should watch Inception!",
+        "Marvel movies are a lot of fun.",
+        "Try something from Studio Ghibli!"
+      ]
+    },
+    {
+      "tag": "travel_70",
+      "patterns": [
+        "Any travel tips?",
+        "Best countries to visit?",
+        "Do you like traveling?"
+      ],
+      "responses": [
+        "Explore, dream, discover.",
+        "Travel broadens your mind!",
+        "Make sure to pack light and plan ahead."
+      ]
+    },
+    {
+      "tag": "music_71",
+      "patterns": [
+        "Recommend music",
+        "Who is your favorite singer?",
+        "Play a song"
+      ],
+      "responses": [
+        "Music can lift your mood.",
+        "Pop and lo-fi are great for study.",
+        "Try listening to classical to relax."
+      ]
+    },
+    {
+      "tag": "food_72",
+      "patterns": [
+        "What's a good recipe?",
+        "Tell me a dish",
+        "I want to cook something"
+      ],
+      "responses": [
+        "Try making a simple omelette!",
+        "Spices make everything better.",
+        "How about pasta today?"
+      ]
+    },
+    {
+      "tag": "language_73",
+      "patterns": [
+        "How do I say hello in French?",
+        "Teach me Spanish",
+        "Language tips?"
+      ],
+      "responses": [
+        "'Gracias' is thank you in Spanish.",
+        "'Bonjour' means hello in French!",
+        "Practice daily for language mastery."
+      ]
+    },
+    {
+      "tag": "productivity_74",
+      "patterns": [
+        "Tips for productivity",
+        "How to focus better?",
+        "Time management?"
+      ],
+      "responses": [
+        "Take breaks and stay organized.",
+        "Use the Pomodoro Technique!",
+        "Minimize distractions for better focus."
+      ]
+    },
+    {
+      "tag": "language_75",
+      "patterns": [
+        "How do I say hello in French?",
+        "Language tips?",
+        "Teach me Spanish"
+      ],
+      "responses": [
+        "'Gracias' is thank you in Spanish.",
+        "Practice daily for language mastery.",
+        "'Bonjour' means hello in French!"
+      ]
+    },
+    {
+      "tag": "music_76",
+      "patterns": [
+        "Play a song",
+        "Recommend music",
+        "Who is your favorite singer?"
+      ],
+      "responses": [
+        "Pop and lo-fi are great for study.",
+        "Try listening to classical to relax.",
+        "Music can lift your mood."
+      ]
+    },
+    {
+      "tag": "productivity_77",
+      "patterns": [
+        "Time management?",
+        "How to focus better?",
+        "Tips for productivity"
+      ],
+      "responses": [
+        "Use the Pomodoro Technique!",
+        "Minimize distractions for better focus.",
+        "Take breaks and stay organized."
+      ]
+    },
+    {
+      "tag": "books_78",
+      "patterns": [
+        "What's a good novel?",
+        "What should I read?",
+        "Suggest a book"
+      ],
+      "responses": [
+        "If you like mystery, read Agatha Christie!",
+        "Reading is a great habit.",
+        "Try 'Atomic Habits' by James Clear."
+      ]
+    },
+    {
+      "tag": "sports_79",
+      "patterns": [
+        "Who won the game?",
+        "Cricket news?",
+        "Do you watch football?"
+      ],
+      "responses": [
+        "Always root for the underdog!",
+        "Did you know cricket is the 2nd most popular sport?",
+        "I love the energy in sports!"
+      ]
+    },
+    {
+      "tag": "books_80",
+      "patterns": [
+        "What's a good novel?",
+        "What should I read?",
+        "Suggest a book"
+      ],
+      "responses": [
+        "Try 'Atomic Habits' by James Clear.",
+        "If you like mystery, read Agatha Christie!",
+        "Reading is a great habit."
+      ]
+    },
+    {
+      "tag": "quotes_81",
+      "patterns": [
+        "Say something wise",
+        "Tell me a saying",
+        "Give me a quote"
+      ],
+      "responses": [
+        "Wisdom begins in wonder. \u2013 Socrates",
+        "Life is what happens when you're busy making other plans."
+      ]
+    },
+    {
+      "tag": "travel_82",
+      "patterns": [
+        "Best countries to visit?",
+        "Any travel tips?",
+        "Do you like traveling?"
+      ],
+      "responses": [
+        "Make sure to pack light and plan ahead.",
+        "Travel broadens your mind!",
+        "Explore, dream, discover."
+      ]
+    },
+    {
+      "tag": "books_83",
+      "patterns": [
+        "What should I read?",
+        "Suggest a book",
+        "What's a good novel?"
+      ],
+      "responses": [
+        "Reading is a great habit.",
+        "Try 'Atomic Habits' by James Clear.",
+        "If you like mystery, read Agatha Christie!"
+      ]
+    },
+    {
+      "tag": "tech_84",
+      "patterns": [
+        "Is the iPhone better or Android?",
+        "Tell me about AI",
+        "What's new in tech?"
+      ],
+      "responses": [
+        "Technology is evolving fast!",
+        "AI is shaping our future.",
+        "Both phones have their perks!"
+      ]
+    },
+    {
+      "tag": "books_85",
+      "patterns": [
+        "Suggest a book",
+        "What's a good novel?",
+        "What should I read?"
+      ],
+      "responses": [
+        "If you like mystery, read Agatha Christie!",
+        "Try 'Atomic Habits' by James Clear.",
+        "Reading is a great habit."
+      ]
+    },
+    {
+      "tag": "quotes_86",
+      "patterns": [
+        "Say something wise",
+        "Give me a quote",
+        "Tell me a saying"
+      ],
+      "responses": [
+        "Life is what happens when you're busy making other plans.",
+        "Wisdom begins in wonder. \u2013 Socrates"
+      ]
+    },
+    {
+      "tag": "books_87",
+      "patterns": [
+        "What's a good novel?",
+        "What should I read?",
+        "Suggest a book"
+      ],
+      "responses": [
+        "Try 'Atomic Habits' by James Clear.",
+        "If you like mystery, read Agatha Christie!",
+        "Reading is a great habit."
+      ]
+    },
+    {
+      "tag": "quotes_88",
+      "patterns": [
+        "Tell me a saying",
+        "Give me a quote",
+        "Say something wise"
+      ],
+      "responses": [
+        "Wisdom begins in wonder. \u2013 Socrates",
+        "Life is what happens when you're busy making other plans."
+      ]
+    },
+    {
+      "tag": "quotes_89",
+      "patterns": [
+        "Tell me a saying",
+        "Say something wise",
+        "Give me a quote"
+      ],
+      "responses": [
+        "Wisdom begins in wonder. \u2013 Socrates",
+        "Life is what happens when you're busy making other plans."
+      ]
+    },
+    {
+      "tag": "language_90",
+      "patterns": [
+        "Teach me Spanish",
+        "Language tips?",
+        "How do I say hello in French?"
+      ],
+      "responses": [
+        "'Bonjour' means hello in French!",
+        "'Gracias' is thank you in Spanish.",
+        "Practice daily for language mastery."
+      ]
+    },
+    {
+      "tag": "quotes_91",
+      "patterns": [
+        "Tell me a saying",
+        "Say something wise",
+        "Give me a quote"
+      ],
+      "responses": [
+        "Wisdom begins in wonder. \u2013 Socrates",
+        "Life is what happens when you're busy making other plans."
+      ]
+    },
+    {
+      "tag": "food_92",
+      "patterns": [
+        "Tell me a dish",
+        "What's a good recipe?",
+        "I want to cook something"
+      ],
+      "responses": [
+        "Spices make everything better.",
+        "How about pasta today?",
+        "Try making a simple omelette!"
+      ]
+    },
+    {
+      "tag": "food_93",
+      "patterns": [
+        "Tell me a dish",
+        "I want to cook something",
+        "What's a good recipe?"
+      ],
+      "responses": [
+        "Try making a simple omelette!",
+        "Spices make everything better.",
+        "How about pasta today?"
+      ]
+    },
+    {
+      "tag": "travel_94",
+      "patterns": [
+        "Any travel tips?",
+        "Best countries to visit?",
+        "Do you like traveling?"
+      ],
+      "responses": [
+        "Travel broadens your mind!",
+        "Explore, dream, discover.",
+        "Make sure to pack light and plan ahead."
+      ]
+    },
+    {
+      "tag": "tech_95",
+      "patterns": [
+        "What's new in tech?",
+        "Tell me about AI",
+        "Is the iPhone better or Android?"
+      ],
+      "responses": [
+        "AI is shaping our future.",
+        "Technology is evolving fast!",
+        "Both phones have their perks!"
+      ]
+    },
+    {
+      "tag": "quotes_96",
+      "patterns": [
+        "Give me a quote",
+        "Tell me a saying",
+        "Say something wise"
+      ],
+      "responses": [
+        "Life is what happens when you're busy making other plans.",
+        "Wisdom begins in wonder. \u2013 Socrates"
+      ]
+    },
+    {
+      "tag": "travel_97",
+      "patterns": [
+        "Best countries to visit?",
+        "Do you like traveling?",
+        "Any travel tips?"
+      ],
+      "responses": [
+        "Make sure to pack light and plan ahead.",
+        "Explore, dream, discover.",
+        "Travel broadens your mind!"
+      ]
+    },
+    {
+      "tag": "language_98",
+      "patterns": [
+        "Language tips?",
+        "How do I say hello in French?",
+        "Teach me Spanish"
+      ],
+      "responses": [
+        "'Bonjour' means hello in French!",
+        "Practice daily for language mastery.",
+        "'Gracias' is thank you in Spanish."
+      ]
+    },
+    {
+      "tag": "quotes_99",
+      "patterns": [
+        "Tell me a saying",
+        "Say something wise",
+        "Give me a quote"
+      ],
+      "responses": [
+        "Wisdom begins in wonder. \u2013 Socrates",
+        "Life is what happens when you're busy making other plans."
+      ]
+    },
+    {
+      "tag": "productivity_100",
+      "patterns": [
+        "Tips for productivity",
+        "Time management?",
+        "How to focus better?"
+      ],
+      "responses": [
+        "Take breaks and stay organized.",
+        "Use the Pomodoro Technique!",
+        "Minimize distractions for better focus."
+      ]
+    },
+    {
+      "tag": "language_101",
+      "patterns": [
+        "Language tips?",
+        "How do I say hello in French?",
+        "Teach me Spanish"
+      ],
+      "responses": [
+        "Practice daily for language mastery.",
+        "'Gracias' is thank you in Spanish.",
+        "'Bonjour' means hello in French!"
+      ]
+    },
+    {
+      "tag": "movies_102",
+      "patterns": [
+        "What\u2019s your favorite movie?",
+        "Good films to watch?",
+        "Suggest a movie"
+      ],
+      "responses": [
+        "You should watch Inception!",
+        "Marvel movies are a lot of fun.",
+        "Try something from Studio Ghibli!"
+      ]
+    },
+    {
+      "tag": "food_103",
+      "patterns": [
+        "I want to cook something",
+        "What's a good recipe?",
+        "Tell me a dish"
+      ],
+      "responses": [
+        "How about pasta today?",
+        "Try making a simple omelette!",
+        "Spices make everything better."
+      ]
+    },
+    {
+      "tag": "travel_104",
+      "patterns": [
+        "Any travel tips?",
+        "Best countries to visit?",
+        "Do you like traveling?"
+      ],
+      "responses": [
+        "Make sure to pack light and plan ahead.",
+        "Explore, dream, discover.",
+        "Travel broadens your mind!"
+      ]
+    },
+    {
+      "tag": "productivity_105",
+      "patterns": [
+        "Time management?",
+        "How to focus better?",
+        "Tips for productivity"
+      ],
+      "responses": [
+        "Use the Pomodoro Technique!",
+        "Take breaks and stay organized.",
+        "Minimize distractions for better focus."
+      ]
+    },
+    {
+      "tag": "tech_106",
+      "patterns": [
+        "What's new in tech?",
+        "Tell me about AI",
+        "Is the iPhone better or Android?"
+      ],
+      "responses": [
+        "Both phones have their perks!",
+        "Technology is evolving fast!",
+        "AI is shaping our future."
+      ]
+    },
+    {
+      "tag": "language_107",
+      "patterns": [
+        "Teach me Spanish",
+        "How do I say hello in French?",
+        "Language tips?"
+      ],
+      "responses": [
+        "'Bonjour' means hello in French!",
+        "'Gracias' is thank you in Spanish.",
+        "Practice daily for language mastery."
+      ]
+    },
+    {
+      "tag": "travel_108",
+      "patterns": [
+        "Best countries to visit?",
+        "Do you like traveling?",
+        "Any travel tips?"
+      ],
+      "responses": [
+        "Make sure to pack light and plan ahead.",
+        "Travel broadens your mind!",
+        "Explore, dream, discover."
+      ]
+    },
+    {
+      "tag": "sports_109",
+      "patterns": [
+        "Who won the game?",
+        "Cricket news?",
+        "Do you watch football?"
+      ],
+      "responses": [
+        "I love the energy in sports!",
+        "Always root for the underdog!",
+        "Did you know cricket is the 2nd most popular sport?"
+      ]
+    },
+    {
+      "tag": "language_110",
+      "patterns": [
+        "How do I say hello in French?",
+        "Teach me Spanish",
+        "Language tips?"
+      ],
+      "responses": [
+        "Practice daily for language mastery.",
+        "'Gracias' is thank you in Spanish.",
+        "'Bonjour' means hello in French!"
+      ]
+    },
+    {
+      "tag": "tech_111",
+      "patterns": [
+        "Is the iPhone better or Android?",
+        "Tell me about AI",
+        "What's new in tech?"
+      ],
+      "responses": [
+        "Technology is evolving fast!",
+        "Both phones have their perks!",
+        "AI is shaping our future."
+      ]
+    },
+    {
+      "tag": "language_112",
+      "patterns": [
+        "How do I say hello in French?",
+        "Teach me Spanish",
+        "Language tips?"
+      ],
+      "responses": [
+        "'Bonjour' means hello in French!",
+        "Practice daily for language mastery.",
+        "'Gracias' is thank you in Spanish."
+      ]
+    },
+    {
+      "tag": "language_113",
+      "patterns": [
+        "How do I say hello in French?",
+        "Language tips?",
+        "Teach me Spanish"
+      ],
+      "responses": [
+        "'Gracias' is thank you in Spanish.",
+        "Practice daily for language mastery.",
+        "'Bonjour' means hello in French!"
+      ]
+    },
+    {
+      "tag": "language_114",
+      "patterns": [
+        "Teach me Spanish",
+        "Language tips?",
+        "How do I say hello in French?"
+      ],
+      "responses": [
+        "Practice daily for language mastery.",
+        "'Bonjour' means hello in French!",
+        "'Gracias' is thank you in Spanish."
+      ]
+    },
+    {
+      "tag": "music_115",
+      "patterns": [
+        "Recommend music",
+        "Who is your favorite singer?",
+        "Play a song"
+      ],
+      "responses": [
+        "Try listening to classical to relax.",
+        "Pop and lo-fi are great for study.",
+        "Music can lift your mood."
+      ]
+    },
+    {
+      "tag": "sports_116",
+      "patterns": [
+        "Cricket news?",
+        "Who won the game?",
+        "Do you watch football?"
+      ],
+      "responses": [
+        "Always root for the underdog!",
+        "Did you know cricket is the 2nd most popular sport?",
+        "I love the energy in sports!"
+      ]
+    },
+    {
+      "tag": "movies_117",
+      "patterns": [
+        "Suggest a movie",
+        "What\u2019s your favorite movie?",
+        "Good films to watch?"
+      ],
+      "responses": [
+        "Marvel movies are a lot of fun.",
+        "You should watch Inception!",
+        "Try something from Studio Ghibli!"
+      ]
+    },
+    {
+      "tag": "movies_118",
+      "patterns": [
+        "Good films to watch?",
+        "Suggest a movie",
+        "What\u2019s your favorite movie?"
+      ],
+      "responses": [
+        "You should watch Inception!",
+        "Try something from Studio Ghibli!",
+        "Marvel movies are a lot of fun."
+      ]
+    },
+    {
+      "tag": "productivity_119",
+      "patterns": [
+        "Tips for productivity",
+        "Time management?",
+        "How to focus better?"
+      ],
+      "responses": [
+        "Minimize distractions for better focus.",
+        "Take breaks and stay organized.",
+        "Use the Pomodoro Technique!"
+      ]
+    },
+    {
+      "tag": "books_120",
+      "patterns": [
+        "What's a good novel?",
+        "What should I read?",
+        "Suggest a book"
+      ],
+      "responses": [
+        "If you like mystery, read Agatha Christie!",
+        "Reading is a great habit.",
+        "Try 'Atomic Habits' by James Clear."
+      ]
+    },
+    {
+      "tag": "movies_121",
+      "patterns": [
+        "Suggest a movie",
+        "What\u2019s your favorite movie?",
+        "Good films to watch?"
+      ],
+      "responses": [
+        "Marvel movies are a lot of fun.",
+        "Try something from Studio Ghibli!",
+        "You should watch Inception!"
+      ]
+    },
+    {
+      "tag": "quotes_122",
+      "patterns": [
+        "Tell me a saying",
+        "Say something wise",
+        "Give me a quote"
+      ],
+      "responses": [
+        "Life is what happens when you're busy making other plans.",
+        "Wisdom begins in wonder. \u2013 Socrates"
+      ]
+    },
+    {
+      "tag": "quotes_123",
+      "patterns": [
+        "Tell me a saying",
+        "Say something wise",
+        "Give me a quote"
+      ],
+      "responses": [
+        "Life is what happens when you're busy making other plans.",
+        "Wisdom begins in wonder. \u2013 Socrates"
+      ]
+    },
+    {
+      "tag": "books_124",
+      "patterns": [
+        "What's a good novel?",
+        "What should I read?",
+        "Suggest a book"
+      ],
+      "responses": [
+        "Reading is a great habit.",
+        "Try 'Atomic Habits' by James Clear.",
+        "If you like mystery, read Agatha Christie!"
+      ]
+    },
+    {
+      "tag": "language_125",
+      "patterns": [
+        "Language tips?",
+        "Teach me Spanish",
+        "How do I say hello in French?"
+      ],
+      "responses": [
+        "'Gracias' is thank you in Spanish.",
+        "'Bonjour' means hello in French!",
+        "Practice daily for language mastery."
+      ]
+    },
+    {
+      "tag": "quotes_126",
+      "patterns": [
+        "Give me a quote",
+        "Say something wise",
+        "Tell me a saying"
+      ],
+      "responses": [
+        "Life is what happens when you're busy making other plans.",
+        "Wisdom begins in wonder. \u2013 Socrates"
+      ]
+    },
+    {
+      "tag": "movies_127",
+      "patterns": [
+        "Suggest a movie",
+        "Good films to watch?",
+        "What\u2019s your favorite movie?"
+      ],
+      "responses": [
+        "Marvel movies are a lot of fun.",
+        "Try something from Studio Ghibli!",
+        "You should watch Inception!"
+      ]
+    },
+    {
+      "tag": "quotes_128",
+      "patterns": [
+        "Give me a quote",
+        "Say something wise",
+        "Tell me a saying"
+      ],
+      "responses": [
+        "Wisdom begins in wonder. \u2013 Socrates",
+        "Life is what happens when you're busy making other plans."
+      ]
+    },
+    {
+      "tag": "sports_129",
+      "patterns": [
+        "Cricket news?",
+        "Who won the game?",
+        "Do you watch football?"
+      ],
+      "responses": [
+        "I love the energy in sports!",
+        "Always root for the underdog!",
+        "Did you know cricket is the 2nd most popular sport?"
+      ]
+    },
+    {
+      "tag": "travel_130",
+      "patterns": [
+        "Best countries to visit?",
+        "Do you like traveling?",
+        "Any travel tips?"
+      ],
+      "responses": [
+        "Travel broadens your mind!",
+        "Make sure to pack light and plan ahead.",
+        "Explore, dream, discover."
+      ]
+    },
+    {
+      "tag": "productivity_131",
+      "patterns": [
+        "Tips for productivity",
+        "Time management?",
+        "How to focus better?"
+      ],
+      "responses": [
+        "Use the Pomodoro Technique!",
+        "Minimize distractions for better focus.",
+        "Take breaks and stay organized."
+      ]
+    },
+    {
+      "tag": "food_132",
+      "patterns": [
+        "Tell me a dish",
+        "I want to cook something",
+        "What's a good recipe?"
+      ],
+      "responses": [
+        "How about pasta today?",
+        "Try making a simple omelette!",
+        "Spices make everything better."
+      ]
+    },
+    {
+      "tag": "productivity_133",
+      "patterns": [
+        "Time management?",
+        "Tips for productivity",
+        "How to focus better?"
+      ],
+      "responses": [
+        "Minimize distractions for better focus.",
+        "Take breaks and stay organized.",
+        "Use the Pomodoro Technique!"
+      ]
+    },
+    {
+      "tag": "productivity_134",
+      "patterns": [
+        "Tips for productivity",
+        "How to focus better?",
+        "Time management?"
+      ],
+      "responses": [
+        "Use the Pomodoro Technique!",
+        "Minimize distractions for better focus.",
+        "Take breaks and stay organized."
+      ]
+    },
+    {
+      "tag": "food_135",
+      "patterns": [
+        "What's a good recipe?",
+        "I want to cook something",
+        "Tell me a dish"
+      ],
+      "responses": [
+        "How about pasta today?",
+        "Try making a simple omelette!",
+        "Spices make everything better."
+      ]
+    },
+    {
+      "tag": "food_136",
+      "patterns": [
+        "Tell me a dish",
+        "What's a good recipe?",
+        "I want to cook something"
+      ],
+      "responses": [
+        "How about pasta today?",
+        "Try making a simple omelette!",
+        "Spices make everything better."
+      ]
+    },
+    {
+      "tag": "books_137",
+      "patterns": [
+        "What should I read?",
+        "What's a good novel?",
+        "Suggest a book"
+      ],
+      "responses": [
+        "Reading is a great habit.",
+        "If you like mystery, read Agatha Christie!",
+        "Try 'Atomic Habits' by James Clear."
+      ]
+    },
+    {
+      "tag": "food_138",
+      "patterns": [
+        "Tell me a dish",
+        "What's a good recipe?",
+        "I want to cook something"
+      ],
+      "responses": [
+        "How about pasta today?",
+        "Try making a simple omelette!",
+        "Spices make everything better."
+      ]
+    },
+    {
+      "tag": "sports_139",
+      "patterns": [
+        "Cricket news?",
+        "Do you watch football?",
+        "Who won the game?"
+      ],
+      "responses": [
+        "I love the energy in sports!",
+        "Did you know cricket is the 2nd most popular sport?",
+        "Always root for the underdog!"
+      ]
+    },
+    {
+      "tag": "tech_140",
+      "patterns": [
+        "Is the iPhone better or Android?",
+        "What's new in tech?",
+        "Tell me about AI"
+      ],
+      "responses": [
+        "Technology is evolving fast!",
+        "Both phones have their perks!",
+        "AI is shaping our future."
+      ]
+    },
+    {
+      "tag": "movies_141",
+      "patterns": [
+        "What\u2019s your favorite movie?",
+        "Suggest a movie",
+        "Good films to watch?"
+      ],
+      "responses": [
+        "Try something from Studio Ghibli!",
+        "You should watch Inception!",
+        "Marvel movies are a lot of fun."
+      ]
+    },
+    {
+      "tag": "tech_142",
+      "patterns": [
+        "Tell me about AI",
+        "Is the iPhone better or Android?",
+        "What's new in tech?"
+      ],
+      "responses": [
+        "Both phones have their perks!",
+        "Technology is evolving fast!",
+        "AI is shaping our future."
+      ]
+    },
+    {
+      "tag": "sports_143",
+      "patterns": [
+        "Cricket news?",
+        "Who won the game?",
+        "Do you watch football?"
+      ],
+      "responses": [
+        "Did you know cricket is the 2nd most popular sport?",
+        "Always root for the underdog!",
+        "I love the energy in sports!"
+      ]
+    },
+    {
+      "tag": "music_144",
+      "patterns": [
+        "Recommend music",
+        "Who is your favorite singer?",
+        "Play a song"
+      ],
+      "responses": [
+        "Pop and lo-fi are great for study.",
+        "Try listening to classical to relax.",
+        "Music can lift your mood."
+      ]
+    },
+    {
+      "tag": "movies_145",
+      "patterns": [
+        "What\u2019s your favorite movie?",
+        "Suggest a movie",
+        "Good films to watch?"
+      ],
+      "responses": [
+        "You should watch Inception!",
+        "Marvel movies are a lot of fun.",
+        "Try something from Studio Ghibli!"
+      ]
+    },
+    {
+      "tag": "productivity_146",
+      "patterns": [
+        "Time management?",
+        "How to focus better?",
+        "Tips for productivity"
+      ],
+      "responses": [
+        "Use the Pomodoro Technique!",
+        "Minimize distractions for better focus.",
+        "Take breaks and stay organized."
+      ]
+    },
+    {
+      "tag": "travel_147",
+      "patterns": [
+        "Best countries to visit?",
+        "Do you like traveling?",
+        "Any travel tips?"
+      ],
+      "responses": [
+        "Travel broadens your mind!",
+        "Make sure to pack light and plan ahead.",
+        "Explore, dream, discover."
+      ]
+    },
+    {
+      "tag": "sports_148",
+      "patterns": [
+        "Do you watch football?",
+        "Cricket news?",
+        "Who won the game?"
+      ],
+      "responses": [
+        "Always root for the underdog!",
+        "I love the energy in sports!",
+        "Did you know cricket is the 2nd most popular sport?"
+      ]
+    },
+    {
+      "tag": "tech_149",
+      "patterns": [
+        "Is the iPhone better or Android?",
+        "What's new in tech?",
+        "Tell me about AI"
+      ],
+      "responses": [
+        "Both phones have their perks!",
+        "AI is shaping our future.",
+        "Technology is evolving fast!"
+      ]
+    },
+    {
+      "tag": "sports_150",
+      "patterns": [
+        "Do you watch football?",
+        "Who won the game?",
+        "Cricket news?"
+      ],
+      "responses": [
+        "Always root for the underdog!",
+        "I love the energy in sports!",
+        "Did you know cricket is the 2nd most popular sport?"
+      ]
+    },
+    {
+      "tag": "music_151",
+      "patterns": [
+        "Recommend music",
+        "Play a song",
+        "Who is your favorite singer?"
+      ],
+      "responses": [
+        "Try listening to classical to relax.",
+        "Music can lift your mood.",
+        "Pop and lo-fi are great for study."
+      ]
+    },
+    {
+      "tag": "productivity_152",
+      "patterns": [
+        "How to focus better?",
+        "Time management?",
+        "Tips for productivity"
+      ],
+      "responses": [
+        "Use the Pomodoro Technique!",
+        "Take breaks and stay organized.",
+        "Minimize distractions for better focus."
+      ]
+    },
+    {
+      "tag": "movies_153",
+      "patterns": [
+        "Good films to watch?",
+        "Suggest a movie",
+        "What\u2019s your favorite movie?"
+      ],
+      "responses": [
+        "Try something from Studio Ghibli!",
+        "You should watch Inception!",
+        "Marvel movies are a lot of fun."
+      ]
+    },
+    {
+      "tag": "movies_154",
+      "patterns": [
+        "What\u2019s your favorite movie?",
+        "Suggest a movie",
+        "Good films to watch?"
+      ],
+      "responses": [
+        "Try something from Studio Ghibli!",
+        "Marvel movies are a lot of fun.",
+        "You should watch Inception!"
+      ]
+    },
+    {
+      "tag": "food_155",
+      "patterns": [
+        "Tell me a dish",
+        "I want to cook something",
+        "What's a good recipe?"
+      ],
+      "responses": [
+        "How about pasta today?",
+        "Try making a simple omelette!",
+        "Spices make everything better."
+      ]
+    },
+    {
+      "tag": "tech_156",
+      "patterns": [
+        "Is the iPhone better or Android?",
+        "Tell me about AI",
+        "What's new in tech?"
+      ],
+      "responses": [
+        "AI is shaping our future.",
+        "Technology is evolving fast!",
+        "Both phones have their perks!"
+      ]
+    },
+    {
+      "tag": "travel_157",
+      "patterns": [
+        "Best countries to visit?",
+        "Any travel tips?",
+        "Do you like traveling?"
+      ],
+      "responses": [
+        "Explore, dream, discover.",
+        "Make sure to pack light and plan ahead.",
+        "Travel broadens your mind!"
+      ]
+    },
+    {
+      "tag": "quotes_158",
+      "patterns": [
+        "Say something wise",
+        "Give me a quote",
+        "Tell me a saying"
+      ],
+      "responses": [
+        "Wisdom begins in wonder. \u2013 Socrates",
+        "Life is what happens when you're busy making other plans."
+      ]
+    },
+    {
+      "tag": "movies_159",
+      "patterns": [
+        "Suggest a movie",
+        "Good films to watch?",
+        "What\u2019s your favorite movie?"
+      ],
+      "responses": [
+        "You should watch Inception!",
+        "Marvel movies are a lot of fun.",
+        "Try something from Studio Ghibli!"
+      ]
+    },
+    {
+      "tag": "books_160",
+      "patterns": [
+        "Suggest a book",
+        "What should I read?",
+        "What's a good novel?"
+      ],
+      "responses": [
+        "Try 'Atomic Habits' by James Clear.",
+        "If you like mystery, read Agatha Christie!",
+        "Reading is a great habit."
+      ]
+    },
+    {
+      "tag": "sports_161",
+      "patterns": [
+        "Do you watch football?",
+        "Cricket news?",
+        "Who won the game?"
+      ],
+      "responses": [
+        "Did you know cricket is the 2nd most popular sport?",
+        "Always root for the underdog!",
+        "I love the energy in sports!"
+      ]
+    },
+    {
+      "tag": "quotes_162",
+      "patterns": [
+        "Tell me a saying",
+        "Give me a quote",
+        "Say something wise"
+      ],
+      "responses": [
+        "Life is what happens when you're busy making other plans.",
+        "Wisdom begins in wonder. \u2013 Socrates"
+      ]
+    },
+    {
+      "tag": "language_163",
+      "patterns": [
+        "How do I say hello in French?",
+        "Language tips?",
+        "Teach me Spanish"
+      ],
+      "responses": [
+        "'Bonjour' means hello in French!",
+        "Practice daily for language mastery.",
+        "'Gracias' is thank you in Spanish."
+      ]
+    },
+    {
+      "tag": "quotes_164",
+      "patterns": [
+        "Say something wise",
+        "Give me a quote",
+        "Tell me a saying"
+      ],
+      "responses": [
+        "Wisdom begins in wonder. \u2013 Socrates",
+        "Life is what happens when you're busy making other plans."
+      ]
+    },
+    {
+      "tag": "music_165",
+      "patterns": [
+        "Play a song",
+        "Recommend music",
+        "Who is your favorite singer?"
+      ],
+      "responses": [
+        "Try listening to classical to relax.",
+        "Music can lift your mood.",
+        "Pop and lo-fi are great for study."
+      ]
+    },
+    {
+      "tag": "food_166",
+      "patterns": [
+        "I want to cook something",
+        "What's a good recipe?",
+        "Tell me a dish"
+      ],
+      "responses": [
+        "Try making a simple omelette!",
+        "Spices make everything better.",
+        "How about pasta today?"
+      ]
+    },
+    {
+      "tag": "music_167",
+      "patterns": [
+        "Who is your favorite singer?",
+        "Play a song",
+        "Recommend music"
+      ],
+      "responses": [
+        "Try listening to classical to relax.",
+        "Pop and lo-fi are great for study.",
+        "Music can lift your mood."
+      ]
+    },
+    {
+      "tag": "quotes_168",
+      "patterns": [
+        "Say something wise",
+        "Give me a quote",
+        "Tell me a saying"
+      ],
+      "responses": [
+        "Life is what happens when you're busy making other plans.",
+        "Wisdom begins in wonder. \u2013 Socrates"
+      ]
+    },
+    {
+      "tag": "quotes_169",
+      "patterns": [
+        "Say something wise",
+        "Tell me a saying",
+        "Give me a quote"
+      ],
+      "responses": [
+        "Life is what happens when you're busy making other plans.",
+        "Wisdom begins in wonder. \u2013 Socrates"
+      ]
+    },
+    {
+      "tag": "movies_170",
+      "patterns": [
+        "Good films to watch?",
+        "Suggest a movie",
+        "What\u2019s your favorite movie?"
+      ],
+      "responses": [
+        "Try something from Studio Ghibli!",
+        "You should watch Inception!",
+        "Marvel movies are a lot of fun."
+      ]
+    },
+    {
+      "tag": "movies_171",
+      "patterns": [
+        "Good films to watch?",
+        "What\u2019s your favorite movie?",
+        "Suggest a movie"
+      ],
+      "responses": [
+        "Marvel movies are a lot of fun.",
+        "You should watch Inception!",
+        "Try something from Studio Ghibli!"
+      ]
+    },
+    {
+      "tag": "language_172",
+      "patterns": [
+        "How do I say hello in French?",
+        "Teach me Spanish",
+        "Language tips?"
+      ],
+      "responses": [
+        "'Bonjour' means hello in French!",
+        "'Gracias' is thank you in Spanish.",
+        "Practice daily for language mastery."
+      ]
+    },
+    {
+      "tag": "quotes_173",
+      "patterns": [
+        "Give me a quote",
+        "Tell me a saying",
+        "Say something wise"
+      ],
+      "responses": [
+        "Wisdom begins in wonder. \u2013 Socrates",
+        "Life is what happens when you're busy making other plans."
+      ]
+    },
+    {
+      "tag": "language_174",
+      "patterns": [
+        "Teach me Spanish",
+        "Language tips?",
+        "How do I say hello in French?"
+      ],
+      "responses": [
+        "Practice daily for language mastery.",
+        "'Gracias' is thank you in Spanish.",
+        "'Bonjour' means hello in French!"
+      ]
+    },
+    {
+      "tag": "travel_175",
+      "patterns": [
+        "Any travel tips?",
+        "Best countries to visit?",
+        "Do you like traveling?"
+      ],
+      "responses": [
+        "Explore, dream, discover.",
+        "Make sure to pack light and plan ahead.",
+        "Travel broadens your mind!"
+      ]
+    },
+    {
+      "tag": "productivity_176",
+      "patterns": [
+        "Time management?",
+        "How to focus better?",
+        "Tips for productivity"
+      ],
+      "responses": [
+        "Minimize distractions for better focus.",
+        "Take breaks and stay organized.",
+        "Use the Pomodoro Technique!"
+      ]
+    },
+    {
+      "tag": "books_177",
+      "patterns": [
+        "Suggest a book",
+        "What's a good novel?",
+        "What should I read?"
+      ],
+      "responses": [
+        "Reading is a great habit.",
+        "If you like mystery, read Agatha Christie!",
+        "Try 'Atomic Habits' by James Clear."
+      ]
+    },
+    {
+      "tag": "language_178",
+      "patterns": [
+        "How do I say hello in French?",
+        "Language tips?",
+        "Teach me Spanish"
+      ],
+      "responses": [
+        "Practice daily for language mastery.",
+        "'Gracias' is thank you in Spanish.",
+        "'Bonjour' means hello in French!"
+      ]
+    },
+    {
+      "tag": "productivity_179",
+      "patterns": [
+        "Tips for productivity",
+        "How to focus better?",
+        "Time management?"
+      ],
+      "responses": [
+        "Take breaks and stay organized.",
+        "Use the Pomodoro Technique!",
+        "Minimize distractions for better focus."
+      ]
+    },
+    {
+      "tag": "travel_180",
+      "patterns": [
+        "Do you like traveling?",
+        "Best countries to visit?",
+        "Any travel tips?"
+      ],
+      "responses": [
+        "Explore, dream, discover.",
+        "Travel broadens your mind!",
+        "Make sure to pack light and plan ahead."
+      ]
+    },
+    {
+      "tag": "food_181",
+      "patterns": [
+        "I want to cook something",
+        "Tell me a dish",
+        "What's a good recipe?"
+      ],
+      "responses": [
+        "Spices make everything better.",
+        "How about pasta today?",
+        "Try making a simple omelette!"
+      ]
+    },
+    {
+      "tag": "productivity_182",
+      "patterns": [
+        "Time management?",
+        "Tips for productivity",
+        "How to focus better?"
+      ],
+      "responses": [
+        "Take breaks and stay organized.",
+        "Use the Pomodoro Technique!",
+        "Minimize distractions for better focus."
+      ]
+    },
+    {
+      "tag": "books_183",
+      "patterns": [
+        "What's a good novel?",
+        "Suggest a book",
+        "What should I read?"
+      ],
+      "responses": [
+        "Try 'Atomic Habits' by James Clear.",
+        "Reading is a great habit.",
+        "If you like mystery, read Agatha Christie!"
+      ]
+    },
+    {
+      "tag": "tech_184",
+      "patterns": [
+        "Tell me about AI",
+        "Is the iPhone better or Android?",
+        "What's new in tech?"
+      ],
+      "responses": [
+        "Both phones have their perks!",
+        "AI is shaping our future.",
+        "Technology is evolving fast!"
+      ]
+    },
+    {
+      "tag": "movies_185",
+      "patterns": [
+        "Suggest a movie",
+        "Good films to watch?",
+        "What\u2019s your favorite movie?"
+      ],
+      "responses": [
+        "You should watch Inception!",
+        "Try something from Studio Ghibli!",
+        "Marvel movies are a lot of fun."
+      ]
+    },
+    {
+      "tag": "tech_186",
+      "patterns": [
+        "Is the iPhone better or Android?",
+        "What's new in tech?",
+        "Tell me about AI"
+      ],
+      "responses": [
+        "AI is shaping our future.",
+        "Both phones have their perks!",
+        "Technology is evolving fast!"
+      ]
+    },
+    {
+      "tag": "productivity_187",
+      "patterns": [
+        "Time management?",
+        "How to focus better?",
+        "Tips for productivity"
+      ],
+      "responses": [
+        "Minimize distractions for better focus.",
+        "Take breaks and stay organized.",
+        "Use the Pomodoro Technique!"
+      ]
+    },
+    {
+      "tag": "movies_188",
+      "patterns": [
+        "Good films to watch?",
+        "Suggest a movie",
+        "What\u2019s your favorite movie?"
+      ],
+      "responses": [
+        "Marvel movies are a lot of fun.",
+        "Try something from Studio Ghibli!",
+        "You should watch Inception!"
+      ]
+    },
+    {
+      "tag": "quotes_189",
+      "patterns": [
+        "Tell me a saying",
+        "Say something wise",
+        "Give me a quote"
+      ],
+      "responses": [
+        "Wisdom begins in wonder. \u2013 Socrates",
+        "Life is what happens when you're busy making other plans."
+      ]
+    },
+    {
+      "tag": "productivity_190",
+      "patterns": [
+        "Time management?",
+        "How to focus better?",
+        "Tips for productivity"
+      ],
+      "responses": [
+        "Take breaks and stay organized.",
+        "Use the Pomodoro Technique!",
+        "Minimize distractions for better focus."
+      ]
+    },
+    {
+      "tag": "quotes_191",
+      "patterns": [
+        "Say something wise",
+        "Tell me a saying",
+        "Give me a quote"
+      ],
+      "responses": [
+        "Wisdom begins in wonder. \u2013 Socrates",
+        "Life is what happens when you're busy making other plans."
+      ]
+    },
+    {
+      "tag": "language_192",
+      "patterns": [
+        "Teach me Spanish",
+        "How do I say hello in French?",
+        "Language tips?"
+      ],
+      "responses": [
+        "'Gracias' is thank you in Spanish.",
+        "Practice daily for language mastery.",
+        "'Bonjour' means hello in French!"
+      ]
+    },
+    {
+      "tag": "books_193",
+      "patterns": [
+        "Suggest a book",
+        "What's a good novel?",
+        "What should I read?"
+      ],
+      "responses": [
+        "Reading is a great habit.",
+        "Try 'Atomic Habits' by James Clear.",
+        "If you like mystery, read Agatha Christie!"
+      ]
+    },
+    {
+      "tag": "sports_194",
+      "patterns": [
+        "Who won the game?",
+        "Do you watch football?",
+        "Cricket news?"
+      ],
+      "responses": [
+        "Always root for the underdog!",
+        "I love the energy in sports!",
+        "Did you know cricket is the 2nd most popular sport?"
+      ]
+    },
+    {
+      "tag": "language_195",
+      "patterns": [
+        "How do I say hello in French?",
+        "Teach me Spanish",
+        "Language tips?"
+      ],
+      "responses": [
+        "'Gracias' is thank you in Spanish.",
+        "Practice daily for language mastery.",
+        "'Bonjour' means hello in French!"
+      ]
+    },
+    {
+      "tag": "music_196",
+      "patterns": [
+        "Who is your favorite singer?",
+        "Recommend music",
+        "Play a song"
+      ],
+      "responses": [
+        "Music can lift your mood.",
+        "Try listening to classical to relax.",
+        "Pop and lo-fi are great for study."
+      ]
+    },
+    {
+      "tag": "music_197",
+      "patterns": [
+        "Recommend music",
+        "Who is your favorite singer?",
+        "Play a song"
+      ],
+      "responses": [
+        "Pop and lo-fi are great for study.",
+        "Music can lift your mood.",
+        "Try listening to classical to relax."
+      ]
+    },
+    {
+      "tag": "music_198",
+      "patterns": [
+        "Play a song",
+        "Who is your favorite singer?",
+        "Recommend music"
+      ],
+      "responses": [
+        "Try listening to classical to relax.",
+        "Pop and lo-fi are great for study.",
+        "Music can lift your mood."
+      ]
+    },
+    {
+      "tag": "music_199",
+      "patterns": [
+        "Play a song",
+        "Recommend music",
+        "Who is your favorite singer?"
+      ],
+      "responses": [
+        "Pop and lo-fi are great for study.",
+        "Try listening to classical to relax.",
+        "Music can lift your mood."
+      ]
+    },
+    {
+      "tag": "sports_200",
+      "patterns": [
+        "Who won the game?",
+        "Do you watch football?",
+        "Cricket news?"
+      ],
+      "responses": [
+        "I love the energy in sports!",
+        "Always root for the underdog!",
+        "Did you know cricket is the 2nd most popular sport?"
+      ]
+    },
+    {
+      "tag": "language_201",
+      "patterns": [
+        "Teach me Spanish",
+        "How do I say hello in French?",
+        "Language tips?"
+      ],
+      "responses": [
+        "Practice daily for language mastery.",
+        "'Gracias' is thank you in Spanish.",
+        "'Bonjour' means hello in French!"
+      ]
+    },
+    {
+      "tag": "movies_202",
+      "patterns": [
+        "What\u2019s your favorite movie?",
+        "Good films to watch?",
+        "Suggest a movie"
+      ],
+      "responses": [
+        "You should watch Inception!",
+        "Try something from Studio Ghibli!",
+        "Marvel movies are a lot of fun."
+      ]
+    },
+    {
+      "tag": "sports_203",
+      "patterns": [
+        "Who won the game?",
+        "Do you watch football?",
+        "Cricket news?"
+      ],
+      "responses": [
+        "Did you know cricket is the 2nd most popular sport?",
+        "I love the energy in sports!",
+        "Always root for the underdog!"
+      ]
+    },
+    {
+      "tag": "food_204",
+      "patterns": [
+        "What's a good recipe?",
+        "Tell me a dish",
+        "I want to cook something"
+      ],
+      "responses": [
+        "How about pasta today?",
+        "Try making a simple omelette!",
+        "Spices make everything better."
+      ]
+    },
+    {
+      "tag": "music_205",
+      "patterns": [
+        "Recommend music",
+        "Play a song",
+        "Who is your favorite singer?"
+      ],
+      "responses": [
+        "Pop and lo-fi are great for study.",
+        "Music can lift your mood.",
+        "Try listening to classical to relax."
+      ]
+    },
+    {
+      "tag": "books_206",
+      "patterns": [
+        "Suggest a book",
+        "What should I read?",
+        "What's a good novel?"
+      ],
+      "responses": [
+        "If you like mystery, read Agatha Christie!",
+        "Reading is a great habit.",
+        "Try 'Atomic Habits' by James Clear."
+      ]
+    },
+    {
+      "tag": "travel_207",
+      "patterns": [
+        "Any travel tips?",
+        "Do you like traveling?",
+        "Best countries to visit?"
+      ],
+      "responses": [
+        "Make sure to pack light and plan ahead.",
+        "Explore, dream, discover.",
+        "Travel broadens your mind!"
+      ]
+    },
+    {
+      "tag": "tech_208",
+      "patterns": [
+        "Tell me about AI",
+        "What's new in tech?",
+        "Is the iPhone better or Android?"
+      ],
+      "responses": [
+        "AI is shaping our future.",
+        "Technology is evolving fast!",
+        "Both phones have their perks!"
+      ]
+    },
+    {
+      "tag": "travel_209",
+      "patterns": [
+        "Any travel tips?",
+        "Do you like traveling?",
+        "Best countries to visit?"
+      ],
+      "responses": [
+        "Travel broadens your mind!",
+        "Explore, dream, discover.",
+        "Make sure to pack light and plan ahead."
+      ]
+    },
+    {
+      "tag": "travel_210",
+      "patterns": [
+        "Best countries to visit?",
+        "Any travel tips?",
+        "Do you like traveling?"
+      ],
+      "responses": [
+        "Make sure to pack light and plan ahead.",
+        "Explore, dream, discover.",
+        "Travel broadens your mind!"
+      ]
+    },
+    {
+      "tag": "movies_211",
+      "patterns": [
+        "Good films to watch?",
+        "What\u2019s your favorite movie?",
+        "Suggest a movie"
+      ],
+      "responses": [
+        "Marvel movies are a lot of fun.",
+        "You should watch Inception!",
+        "Try something from Studio Ghibli!"
+      ]
+    },
+    {
+      "tag": "tech_212",
+      "patterns": [
+        "Is the iPhone better or Android?",
+        "Tell me about AI",
+        "What's new in tech?"
+      ],
+      "responses": [
+        "Technology is evolving fast!",
+        "AI is shaping our future.",
+        "Both phones have their perks!"
+      ]
+    },
+    {
+      "tag": "sports_213",
+      "patterns": [
+        "Who won the game?",
+        "Do you watch football?",
+        "Cricket news?"
+      ],
+      "responses": [
+        "I love the energy in sports!",
+        "Did you know cricket is the 2nd most popular sport?",
+        "Always root for the underdog!"
+      ]
+    },
+    {
+      "tag": "travel_214",
+      "patterns": [
+        "Do you like traveling?",
+        "Any travel tips?",
+        "Best countries to visit?"
+      ],
+      "responses": [
+        "Make sure to pack light and plan ahead.",
+        "Explore, dream, discover.",
+        "Travel broadens your mind!"
+      ]
+    },
+    {
+      "tag": "quotes_215",
+      "patterns": [
+        "Tell me a saying",
+        "Give me a quote",
+        "Say something wise"
+      ],
+      "responses": [
+        "Wisdom begins in wonder. \u2013 Socrates",
+        "Life is what happens when you're busy making other plans."
+      ]
+    },
+    {
+      "tag": "productivity_216",
+      "patterns": [
+        "How to focus better?",
+        "Tips for productivity",
+        "Time management?"
+      ],
+      "responses": [
+        "Take breaks and stay organized.",
+        "Minimize distractions for better focus.",
+        "Use the Pomodoro Technique!"
+      ]
+    },
+    {
+      "tag": "productivity_217",
+      "patterns": [
+        "Tips for productivity",
+        "How to focus better?",
+        "Time management?"
+      ],
+      "responses": [
+        "Minimize distractions for better focus.",
+        "Take breaks and stay organized.",
+        "Use the Pomodoro Technique!"
+      ]
+    },
+    {
+      "tag": "sports_218",
+      "patterns": [
+        "Cricket news?",
+        "Who won the game?",
+        "Do you watch football?"
+      ],
+      "responses": [
+        "Always root for the underdog!",
+        "Did you know cricket is the 2nd most popular sport?",
+        "I love the energy in sports!"
+      ]
+    },
+    {
+      "tag": "movies_219",
+      "patterns": [
+        "Good films to watch?",
+        "Suggest a movie",
+        "What\u2019s your favorite movie?"
+      ],
+      "responses": [
+        "You should watch Inception!",
+        "Try something from Studio Ghibli!",
+        "Marvel movies are a lot of fun."
+      ]
+    },
+    {
+      "tag": "movies_220",
+      "patterns": [
+        "What\u2019s your favorite movie?",
+        "Good films to watch?",
+        "Suggest a movie"
+      ],
+      "responses": [
+        "Try something from Studio Ghibli!",
+        "You should watch Inception!",
+        "Marvel movies are a lot of fun."
+      ]
+    },
+    {
+      "tag": "productivity_221",
+      "patterns": [
+        "How to focus better?",
+        "Tips for productivity",
+        "Time management?"
+      ],
+      "responses": [
+        "Minimize distractions for better focus.",
+        "Use the Pomodoro Technique!",
+        "Take breaks and stay organized."
+      ]
+    },
+    {
+      "tag": "food_222",
+      "patterns": [
+        "I want to cook something",
+        "What's a good recipe?",
+        "Tell me a dish"
+      ],
+      "responses": [
+        "How about pasta today?",
+        "Try making a simple omelette!",
+        "Spices make everything better."
+      ]
+    },
+    {
+      "tag": "quotes_223",
+      "patterns": [
+        "Tell me a saying",
+        "Say something wise",
+        "Give me a quote"
+      ],
+      "responses": [
+        "Wisdom begins in wonder. \u2013 Socrates",
+        "Life is what happens when you're busy making other plans."
+      ]
+    },
+    {
+      "tag": "quotes_224",
+      "patterns": [
+        "Tell me a saying",
+        "Give me a quote",
+        "Say something wise"
+      ],
+      "responses": [
+        "Wisdom begins in wonder. \u2013 Socrates",
+        "Life is what happens when you're busy making other plans."
+      ]
+    },
+    {
+      "tag": "movies_225",
+      "patterns": [
+        "What\u2019s your favorite movie?",
+        "Suggest a movie",
+        "Good films to watch?"
+      ],
+      "responses": [
+        "Try something from Studio Ghibli!",
+        "You should watch Inception!",
+        "Marvel movies are a lot of fun."
+      ]
+    },
+    {
+      "tag": "quotes_226",
+      "patterns": [
+        "Give me a quote",
+        "Say something wise",
+        "Tell me a saying"
+      ],
+      "responses": [
+        "Life is what happens when you're busy making other plans.",
+        "Wisdom begins in wonder. \u2013 Socrates"
+      ]
+    },
+    {
+      "tag": "food_227",
+      "patterns": [
+        "I want to cook something",
+        "Tell me a dish",
+        "What's a good recipe?"
+      ],
+      "responses": [
+        "Spices make everything better.",
+        "Try making a simple omelette!",
+        "How about pasta today?"
+      ]
+    },
+    {
+      "tag": "sports_228",
+      "patterns": [
+        "Who won the game?",
+        "Do you watch football?",
+        "Cricket news?"
+      ],
+      "responses": [
+        "I love the energy in sports!",
+        "Did you know cricket is the 2nd most popular sport?",
+        "Always root for the underdog!"
+      ]
+    },
+    {
+      "tag": "quotes_229",
+      "patterns": [
+        "Give me a quote",
+        "Say something wise",
+        "Tell me a saying"
+      ],
+      "responses": [
+        "Wisdom begins in wonder. \u2013 Socrates",
+        "Life is what happens when you're busy making other plans."
+      ]
+    },
+    {
+      "tag": "travel_230",
+      "patterns": [
+        "Any travel tips?",
+        "Do you like traveling?",
+        "Best countries to visit?"
+      ],
+      "responses": [
+        "Make sure to pack light and plan ahead.",
+        "Explore, dream, discover.",
+        "Travel broadens your mind!"
+      ]
+    },
+    {
+      "tag": "tech_231",
+      "patterns": [
+        "Tell me about AI",
+        "What's new in tech?",
+        "Is the iPhone better or Android?"
+      ],
+      "responses": [
+        "Both phones have their perks!",
+        "Technology is evolving fast!",
+        "AI is shaping our future."
+      ]
+    },
+    {
+      "tag": "sports_232",
+      "patterns": [
+        "Cricket news?",
+        "Do you watch football?",
+        "Who won the game?"
+      ],
+      "responses": [
+        "Did you know cricket is the 2nd most popular sport?",
+        "Always root for the underdog!",
+        "I love the energy in sports!"
+      ]
+    },
+    {
+      "tag": "tech_233",
+      "patterns": [
+        "Is the iPhone better or Android?",
+        "What's new in tech?",
+        "Tell me about AI"
+      ],
+      "responses": [
+        "Both phones have their perks!",
+        "Technology is evolving fast!",
+        "AI is shaping our future."
+      ]
+    },
+    {
+      "tag": "sports_234",
+      "patterns": [
+        "Do you watch football?",
+        "Cricket news?",
+        "Who won the game?"
+      ],
+      "responses": [
+        "Did you know cricket is the 2nd most popular sport?",
+        "I love the energy in sports!",
+        "Always root for the underdog!"
+      ]
+    },
+    {
+      "tag": "productivity_235",
+      "patterns": [
+        "Time management?",
+        "Tips for productivity",
+        "How to focus better?"
+      ],
+      "responses": [
+        "Take breaks and stay organized.",
+        "Use the Pomodoro Technique!",
+        "Minimize distractions for better focus."
+      ]
+    },
+    {
+      "tag": "language_236",
+      "patterns": [
+        "Language tips?",
+        "Teach me Spanish",
+        "How do I say hello in French?"
+      ],
+      "responses": [
+        "Practice daily for language mastery.",
+        "'Gracias' is thank you in Spanish.",
+        "'Bonjour' means hello in French!"
+      ]
+    },
+    {
+      "tag": "tech_237",
+      "patterns": [
+        "Tell me about AI",
+        "What's new in tech?",
+        "Is the iPhone better or Android?"
+      ],
+      "responses": [
+        "Technology is evolving fast!",
+        "Both phones have their perks!",
+        "AI is shaping our future."
+      ]
+    },
+    {
+      "tag": "sports_238",
+      "patterns": [
+        "Cricket news?",
+        "Who won the game?",
+        "Do you watch football?"
+      ],
+      "responses": [
+        "Did you know cricket is the 2nd most popular sport?",
+        "I love the energy in sports!",
+        "Always root for the underdog!"
+      ]
+    },
+    {
+      "tag": "food_239",
+      "patterns": [
+        "What's a good recipe?",
+        "I want to cook something",
+        "Tell me a dish"
+      ],
+      "responses": [
+        "Try making a simple omelette!",
+        "Spices make everything better.",
+        "How about pasta today?"
+      ]
+    },
+    {
+      "tag": "movies_240",
+      "patterns": [
+        "Suggest a movie",
+        "Good films to watch?",
+        "What\u2019s your favorite movie?"
+      ],
+      "responses": [
+        "Marvel movies are a lot of fun.",
+        "Try something from Studio Ghibli!",
+        "You should watch Inception!"
+      ]
+    },
+    {
+      "tag": "productivity_241",
+      "patterns": [
+        "Tips for productivity",
+        "How to focus better?",
+        "Time management?"
+      ],
+      "responses": [
+        "Use the Pomodoro Technique!",
+        "Minimize distractions for better focus.",
+        "Take breaks and stay organized."
+      ]
+    },
+    {
+      "tag": "productivity_242",
+      "patterns": [
+        "Tips for productivity",
+        "Time management?",
+        "How to focus better?"
+      ],
+      "responses": [
+        "Use the Pomodoro Technique!",
+        "Minimize distractions for better focus.",
+        "Take breaks and stay organized."
+      ]
+    },
+    {
+      "tag": "tech_243",
+      "patterns": [
+        "Is the iPhone better or Android?",
+        "What's new in tech?",
+        "Tell me about AI"
+      ],
+      "responses": [
+        "Both phones have their perks!",
+        "Technology is evolving fast!",
+        "AI is shaping our future."
+      ]
+    },
+    {
+      "tag": "travel_244",
+      "patterns": [
+        "Any travel tips?",
+        "Best countries to visit?",
+        "Do you like traveling?"
+      ],
+      "responses": [
+        "Travel broadens your mind!",
+        "Explore, dream, discover.",
+        "Make sure to pack light and plan ahead."
+      ]
+    },
+    {
+      "tag": "food_245",
+      "patterns": [
+        "What's a good recipe?",
+        "Tell me a dish",
+        "I want to cook something"
+      ],
+      "responses": [
+        "Spices make everything better.",
+        "How about pasta today?",
+        "Try making a simple omelette!"
+      ]
+    },
+    {
+      "tag": "travel_246",
+      "patterns": [
+        "Do you like traveling?",
+        "Any travel tips?",
+        "Best countries to visit?"
+      ],
+      "responses": [
+        "Make sure to pack light and plan ahead.",
+        "Explore, dream, discover.",
+        "Travel broadens your mind!"
+      ]
+    },
+    {
+      "tag": "food_247",
+      "patterns": [
+        "I want to cook something",
+        "What's a good recipe?",
+        "Tell me a dish"
+      ],
+      "responses": [
+        "Try making a simple omelette!",
+        "How about pasta today?",
+        "Spices make everything better."
+      ]
+    },
+    {
+      "tag": "music_248",
+      "patterns": [
+        "Who is your favorite singer?",
+        "Recommend music",
+        "Play a song"
+      ],
+      "responses": [
+        "Try listening to classical to relax.",
+        "Music can lift your mood.",
+        "Pop and lo-fi are great for study."
+      ]
+    },
+    {
+      "tag": "tech_249",
+      "patterns": [
+        "What's new in tech?",
+        "Tell me about AI",
+        "Is the iPhone better or Android?"
+      ],
+      "responses": [
+        "Technology is evolving fast!",
+        "Both phones have their perks!",
+        "AI is shaping our future."
+      ]
+    },
+    {
+      "tag": "movies_250",
+      "patterns": [
+        "Good films to watch?",
+        "What\u2019s your favorite movie?",
+        "Suggest a movie"
+      ],
+      "responses": [
+        "Marvel movies are a lot of fun.",
+        "Try something from Studio Ghibli!",
+        "You should watch Inception!"
+      ]
+    },
+    {
+      "tag": "books_251",
+      "patterns": [
+        "What should I read?",
+        "What's a good novel?",
+        "Suggest a book"
+      ],
+      "responses": [
+        "Try 'Atomic Habits' by James Clear.",
+        "If you like mystery, read Agatha Christie!",
+        "Reading is a great habit."
+      ]
+    },
+    {
+      "tag": "language_252",
+      "patterns": [
+        "Teach me Spanish",
+        "How do I say hello in French?",
+        "Language tips?"
+      ],
+      "responses": [
+        "Practice daily for language mastery.",
+        "'Gracias' is thank you in Spanish.",
+        "'Bonjour' means hello in French!"
+      ]
+    },
+    {
+      "tag": "quotes_253",
+      "patterns": [
+        "Say something wise",
+        "Tell me a saying",
+        "Give me a quote"
+      ],
+      "responses": [
+        "Wisdom begins in wonder. \u2013 Socrates",
+        "Life is what happens when you're busy making other plans."
+      ]
+    },
+    {
+      "tag": "movies_254",
+      "patterns": [
+        "Good films to watch?",
+        "What\u2019s your favorite movie?",
+        "Suggest a movie"
+      ],
+      "responses": [
+        "Try something from Studio Ghibli!",
+        "Marvel movies are a lot of fun.",
+        "You should watch Inception!"
+      ]
+    },
+    {
+      "tag": "books_255",
+      "patterns": [
+        "Suggest a book",
+        "What's a good novel?",
+        "What should I read?"
+      ],
+      "responses": [
+        "Reading is a great habit.",
+        "Try 'Atomic Habits' by James Clear.",
+        "If you like mystery, read Agatha Christie!"
+      ]
+    },
+    {
+      "tag": "sports_256",
+      "patterns": [
+        "Do you watch football?",
+        "Who won the game?",
+        "Cricket news?"
+      ],
+      "responses": [
+        "Always root for the underdog!",
+        "Did you know cricket is the 2nd most popular sport?",
+        "I love the energy in sports!"
+      ]
+    },
+    {
+      "tag": "productivity_257",
+      "patterns": [
+        "Time management?",
+        "Tips for productivity",
+        "How to focus better?"
+      ],
+      "responses": [
+        "Take breaks and stay organized.",
+        "Minimize distractions for better focus.",
+        "Use the Pomodoro Technique!"
+      ]
+    },
+    {
+      "tag": "language_258",
+      "patterns": [
+        "Teach me Spanish",
+        "Language tips?",
+        "How do I say hello in French?"
+      ],
+      "responses": [
+        "'Bonjour' means hello in French!",
+        "'Gracias' is thank you in Spanish.",
+        "Practice daily for language mastery."
+      ]
+    },
+    {
+      "tag": "quotes_259",
+      "patterns": [
+        "Say something wise",
+        "Tell me a saying",
+        "Give me a quote"
+      ],
+      "responses": [
+        "Wisdom begins in wonder. \u2013 Socrates",
+        "Life is what happens when you're busy making other plans."
+      ]
+    },
+    {
+      "tag": "tech_260",
+      "patterns": [
+        "What's new in tech?",
+        "Is the iPhone better or Android?",
+        "Tell me about AI"
+      ],
+      "responses": [
+        "AI is shaping our future.",
+        "Both phones have their perks!",
+        "Technology is evolving fast!"
+      ]
+    },
+    {
+      "tag": "travel_261",
+      "patterns": [
+        "Any travel tips?",
+        "Best countries to visit?",
+        "Do you like traveling?"
+      ],
+      "responses": [
+        "Explore, dream, discover.",
+        "Travel broadens your mind!",
+        "Make sure to pack light and plan ahead."
+      ]
+    },
+    {
+      "tag": "sports_262",
+      "patterns": [
+        "Cricket news?",
+        "Who won the game?",
+        "Do you watch football?"
+      ],
+      "responses": [
+        "Always root for the underdog!",
+        "Did you know cricket is the 2nd most popular sport?",
+        "I love the energy in sports!"
+      ]
+    },
+    {
+      "tag": "productivity_263",
+      "patterns": [
+        "How to focus better?",
+        "Time management?",
+        "Tips for productivity"
+      ],
+      "responses": [
+        "Use the Pomodoro Technique!",
+        "Take breaks and stay organized.",
+        "Minimize distractions for better focus."
+      ]
+    },
+    {
+      "tag": "food_264",
+      "patterns": [
+        "I want to cook something",
+        "What's a good recipe?",
+        "Tell me a dish"
+      ],
+      "responses": [
+        "Spices make everything better.",
+        "Try making a simple omelette!",
+        "How about pasta today?"
+      ]
+    },
+    {
+      "tag": "movies_265",
+      "patterns": [
+        "Suggest a movie",
+        "Good films to watch?",
+        "What\u2019s your favorite movie?"
+      ],
+      "responses": [
+        "Marvel movies are a lot of fun.",
+        "Try something from Studio Ghibli!",
+        "You should watch Inception!"
+      ]
+    },
+    {
+      "tag": "movies_266",
+      "patterns": [
+        "Good films to watch?",
+        "Suggest a movie",
+        "What\u2019s your favorite movie?"
+      ],
+      "responses": [
+        "Try something from Studio Ghibli!",
+        "Marvel movies are a lot of fun.",
+        "You should watch Inception!"
+      ]
+    },
+    {
+      "tag": "quotes_267",
+      "patterns": [
+        "Tell me a saying",
+        "Say something wise",
+        "Give me a quote"
+      ],
+      "responses": [
+        "Wisdom begins in wonder. \u2013 Socrates",
+        "Life is what happens when you're busy making other plans."
+      ]
+    },
+    {
+      "tag": "sports_268",
+      "patterns": [
+        "Who won the game?",
+        "Do you watch football?",
+        "Cricket news?"
+      ],
+      "responses": [
+        "I love the energy in sports!",
+        "Always root for the underdog!",
+        "Did you know cricket is the 2nd most popular sport?"
+      ]
+    },
+    {
+      "tag": "language_269",
+      "patterns": [
+        "How do I say hello in French?",
+        "Language tips?",
+        "Teach me Spanish"
+      ],
+      "responses": [
+        "Practice daily for language mastery.",
+        "'Bonjour' means hello in French!",
+        "'Gracias' is thank you in Spanish."
+      ]
+    },
+    {
+      "tag": "tech_270",
+      "patterns": [
+        "Is the iPhone better or Android?",
+        "What's new in tech?",
+        "Tell me about AI"
+      ],
+      "responses": [
+        "Both phones have their perks!",
+        "AI is shaping our future.",
+        "Technology is evolving fast!"
+      ]
+    },
+    {
+      "tag": "travel_271",
+      "patterns": [
+        "Best countries to visit?",
+        "Do you like traveling?",
+        "Any travel tips?"
+      ],
+      "responses": [
+        "Explore, dream, discover.",
+        "Make sure to pack light and plan ahead.",
+        "Travel broadens your mind!"
+      ]
+    },
+    {
+      "tag": "language_272",
+      "patterns": [
+        "Language tips?",
+        "How do I say hello in French?",
+        "Teach me Spanish"
+      ],
+      "responses": [
+        "Practice daily for language mastery.",
+        "'Bonjour' means hello in French!",
+        "'Gracias' is thank you in Spanish."
+      ]
+    },
+    {
+      "tag": "travel_273",
+      "patterns": [
+        "Best countries to visit?",
+        "Any travel tips?",
+        "Do you like traveling?"
+      ],
+      "responses": [
+        "Explore, dream, discover.",
+        "Travel broadens your mind!",
+        "Make sure to pack light and plan ahead."
+      ]
+    },
+    {
+      "tag": "language_274",
+      "patterns": [
+        "Language tips?",
+        "Teach me Spanish",
+        "How do I say hello in French?"
+      ],
+      "responses": [
+        "Practice daily for language mastery.",
+        "'Bonjour' means hello in French!",
+        "'Gracias' is thank you in Spanish."
+      ]
+    },
+    {
+      "tag": "movies_275",
+      "patterns": [
+        "Good films to watch?",
+        "Suggest a movie",
+        "What\u2019s your favorite movie?"
+      ],
+      "responses": [
+        "Try something from Studio Ghibli!",
+        "Marvel movies are a lot of fun.",
+        "You should watch Inception!"
+      ]
+    },
+    {
+      "tag": "music_276",
+      "patterns": [
+        "Play a song",
+        "Recommend music",
+        "Who is your favorite singer?"
+      ],
+      "responses": [
+        "Music can lift your mood.",
+        "Try listening to classical to relax.",
+        "Pop and lo-fi are great for study."
+      ]
+    },
+    {
+      "tag": "quotes_277",
+      "patterns": [
+        "Give me a quote",
+        "Say something wise",
+        "Tell me a saying"
+      ],
+      "responses": [
+        "Life is what happens when you're busy making other plans.",
+        "Wisdom begins in wonder. \u2013 Socrates"
+      ]
+    },
+    {
+      "tag": "food_278",
+      "patterns": [
+        "What's a good recipe?",
+        "Tell me a dish",
+        "I want to cook something"
+      ],
+      "responses": [
+        "Spices make everything better.",
+        "Try making a simple omelette!",
+        "How about pasta today?"
+      ]
+    },
+    {
+      "tag": "music_279",
+      "patterns": [
+        "Who is your favorite singer?",
+        "Play a song",
+        "Recommend music"
+      ],
+      "responses": [
+        "Music can lift your mood.",
+        "Pop and lo-fi are great for study.",
+        "Try listening to classical to relax."
+      ]
+    },
+    {
+      "tag": "music_280",
+      "patterns": [
+        "Play a song",
+        "Who is your favorite singer?",
+        "Recommend music"
+      ],
+      "responses": [
+        "Pop and lo-fi are great for study.",
+        "Try listening to classical to relax.",
+        "Music can lift your mood."
+      ]
+    },
+    {
+      "tag": "productivity_281",
+      "patterns": [
+        "Time management?",
+        "Tips for productivity",
+        "How to focus better?"
+      ],
+      "responses": [
+        "Use the Pomodoro Technique!",
+        "Take breaks and stay organized.",
+        "Minimize distractions for better focus."
+      ]
+    },
+    {
+      "tag": "movies_282",
+      "patterns": [
+        "Good films to watch?",
+        "Suggest a movie",
+        "What\u2019s your favorite movie?"
+      ],
+      "responses": [
+        "Try something from Studio Ghibli!",
+        "You should watch Inception!",
+        "Marvel movies are a lot of fun."
+      ]
+    },
+    {
+      "tag": "language_283",
+      "patterns": [
+        "How do I say hello in French?",
+        "Teach me Spanish",
+        "Language tips?"
+      ],
+      "responses": [
+        "'Gracias' is thank you in Spanish.",
+        "'Bonjour' means hello in French!",
+        "Practice daily for language mastery."
+      ]
+    },
+    {
+      "tag": "sports_284",
+      "patterns": [
+        "Who won the game?",
+        "Do you watch football?",
+        "Cricket news?"
+      ],
+      "responses": [
+        "Always root for the underdog!",
+        "I love the energy in sports!",
+        "Did you know cricket is the 2nd most popular sport?"
+      ]
+    },
+    {
+      "tag": "tech_285",
+      "patterns": [
+        "Is the iPhone better or Android?",
+        "What's new in tech?",
+        "Tell me about AI"
+      ],
+      "responses": [
+        "Technology is evolving fast!",
+        "Both phones have their perks!",
+        "AI is shaping our future."
+      ]
+    },
+    {
+      "tag": "sports_286",
+      "patterns": [
+        "Cricket news?",
+        "Who won the game?",
+        "Do you watch football?"
+      ],
+      "responses": [
+        "Always root for the underdog!",
+        "Did you know cricket is the 2nd most popular sport?",
+        "I love the energy in sports!"
+      ]
+    },
+    {
+      "tag": "tech_287",
+      "patterns": [
+        "Is the iPhone better or Android?",
+        "Tell me about AI",
+        "What's new in tech?"
+      ],
+      "responses": [
+        "AI is shaping our future.",
+        "Technology is evolving fast!",
+        "Both phones have their perks!"
+      ]
+    },
+    {
+      "tag": "food_288",
+      "patterns": [
+        "I want to cook something",
+        "What's a good recipe?",
+        "Tell me a dish"
+      ],
+      "responses": [
+        "Spices make everything better.",
+        "Try making a simple omelette!",
+        "How about pasta today?"
+      ]
+    },
+    {
+      "tag": "books_289",
+      "patterns": [
+        "What should I read?",
+        "Suggest a book",
+        "What's a good novel?"
+      ],
+      "responses": [
+        "Reading is a great habit.",
+        "Try 'Atomic Habits' by James Clear.",
+        "If you like mystery, read Agatha Christie!"
+      ]
+    },
+    {
+      "tag": "music_290",
+      "patterns": [
+        "Play a song",
+        "Recommend music",
+        "Who is your favorite singer?"
+      ],
+      "responses": [
+        "Pop and lo-fi are great for study.",
+        "Music can lift your mood.",
+        "Try listening to classical to relax."
+      ]
+    },
+    {
+      "tag": "language_291",
+      "patterns": [
+        "Teach me Spanish",
+        "Language tips?",
+        "How do I say hello in French?"
+      ],
+      "responses": [
+        "'Gracias' is thank you in Spanish.",
+        "Practice daily for language mastery.",
+        "'Bonjour' means hello in French!"
+      ]
+    },
+    {
+      "tag": "tech_292",
+      "patterns": [
+        "What's new in tech?",
+        "Is the iPhone better or Android?",
+        "Tell me about AI"
+      ],
+      "responses": [
+        "AI is shaping our future.",
+        "Both phones have their perks!",
+        "Technology is evolving fast!"
+      ]
+    },
+    {
+      "tag": "sports_293",
+      "patterns": [
+        "Cricket news?",
+        "Do you watch football?",
+        "Who won the game?"
+      ],
+      "responses": [
+        "Always root for the underdog!",
+        "I love the energy in sports!",
+        "Did you know cricket is the 2nd most popular sport?"
+      ]
+    },
+    {
+      "tag": "travel_294",
+      "patterns": [
+        "Best countries to visit?",
+        "Any travel tips?",
+        "Do you like traveling?"
+      ],
+      "responses": [
+        "Explore, dream, discover.",
+        "Travel broadens your mind!",
+        "Make sure to pack light and plan ahead."
+      ]
+    },
+    {
+      "tag": "tech_295",
+      "patterns": [
+        "What's new in tech?",
+        "Is the iPhone better or Android?",
+        "Tell me about AI"
+      ],
+      "responses": [
+        "Technology is evolving fast!",
+        "Both phones have their perks!",
+        "AI is shaping our future."
+      ]
+    },
+    {
+      "tag": "quotes_296",
+      "patterns": [
+        "Tell me a saying",
+        "Say something wise",
+        "Give me a quote"
+      ],
+      "responses": [
+        "Wisdom begins in wonder. \u2013 Socrates",
+        "Life is what happens when you're busy making other plans."
+      ]
+    },
+    {
+      "tag": "quotes_297",
+      "patterns": [
+        "Give me a quote",
+        "Tell me a saying",
+        "Say something wise"
+      ],
+      "responses": [
+        "Wisdom begins in wonder. \u2013 Socrates",
+        "Life is what happens when you're busy making other plans."
+      ]
+    },
+    {
+      "tag": "tech_298",
+      "patterns": [
+        "What's new in tech?",
+        "Is the iPhone better or Android?",
+        "Tell me about AI"
+      ],
+      "responses": [
+        "Technology is evolving fast!",
+        "Both phones have their perks!",
+        "AI is shaping our future."
+      ]
+    },
+    {
+      "tag": "sports_299",
+      "patterns": [
+        "Do you watch football?",
+        "Cricket news?",
+        "Who won the game?"
+      ],
+      "responses": [
+        "I love the energy in sports!",
+        "Did you know cricket is the 2nd most popular sport?",
+        "Always root for the underdog!"
+      ]
+    }
+  ]
+}
