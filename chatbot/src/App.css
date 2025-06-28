@@ -1,0 +1,161 @@
+/* Base styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2f2f3d;
+  color: #f1f5f9;
+  font-family: 'Segoe UI', sans-serif;
+  transition: background-color 0.3s;
+}
+
+.chat-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary);
+  padding: 1rem;
+  color: white;
+  border-radius: 8px;
+}
+
+.instructions {
+  background-color: var(--secondary);
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+
+.chat-box {
+  border: 1px solid var(--border);
+  padding: 1rem;
+  height: 400px;
+  overflow-y: auto;
+  background-color: var(--background);
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Messages */
+.msg {
+  max-width: 70%;
+  margin: 10px;
+  padding: 12px 16px;
+  border-radius: 15px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 1rem;
+  line-height: 1.5;
+  word-break: break-word;
+}
+
+.msg.user {
+  background-color: #0288d1;
+  color: white;
+  align-self: flex-end;
+}
+
+.msg.bot {
+  background-color: #5a4bfc;
+  color: white;
+  align-self: flex-start;
+}
+
+/* Add this span in JSX: <span className="timestamp">{time}</span> */
+.timestamp {
+  align-self: flex-end;
+  font-size: 0.75rem;
+  color: #ddd;
+  margin-top: 4px;
+  opacity: 0.8;
+}
+
+body.dark .msg {
+  color: white;
+}
+.msg-header {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+.input-area {
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* Inputs */
+input,
+textarea {
+  flex-grow: 1;
+  padding: 0.7rem;
+  font-size: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  resize: none;
+  outline: none;
+  background-color: var(--input-bg);
+  color: var(--text);
+}
+
+button {
+  padding: 0.7rem 1rem;
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--primary-dark);
+}
+
+/* Theme variables */
+:root {
+  --primary: #0f172a;
+  --primary-dark: #1e293b;
+  --secondary: #f1f5f9;
+  --background: #ffffff;
+  --border: #cbd5e1;
+  --user-bubble: #bae6fd;
+  --bot-bubble: #e0e7ff;
+  --text: #0f172a;
+  --input-bg: #ffffff;
+}
+
+body.dark {
+  --primary: #1e293b;
+  --primary-dark: #334155;
+  --secondary: #334155;
+  --background: #0f172a;
+  --border: #475569;
+  --user-bubble: #0284c7;
+  --bot-bubble: #4f46e5;
+  --text: #e2e8f0;
+  --input-bg: #1e293b;
+}
+
+/* Optional explicit input & button styles for dark mode */
+body.dark input,
+body.dark textarea {
+  background-color: #2c2c3e;
+  color: white;
+  border: 1px solid #555;
+}
+
+body.dark button {
+  background-color: #333c5a;
+  color: white;
+  border: 1px solid #555;
+}
