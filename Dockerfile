@@ -8,7 +8,7 @@ WORKDIR /app
 COPY backend/ /app
 
 # Remove anything unnecessary (in case it's still copied)
-RUN rm -rf __pycache__ *.pt *.pkl .venv .git .ipynb_checkpoints
+RUN rm -rf __pycache__ .venv .git .ipynb_checkpoints
 
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
