@@ -1,9 +1,13 @@
+# Other dependencies
 flask
 flask-cors
 requests
 wikipedia
 transformers
-torch==2.1.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
-python-dotenv
 scikit-learn
+python-dotenv
 gunicorn
+
+# ✅ CPU-only torch from PyTorch site (no '+cpu')
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.1.0
