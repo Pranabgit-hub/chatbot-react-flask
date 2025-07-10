@@ -1,18 +1,20 @@
-# Use official Python base image
-FROM python:3.10
+# Use slim Python base image
+FROM python:3.10-slim
 
-# Set the working directory to /app
+# Set working directory
 WORKDIR /app
 
-# Copy your backend code
+# Copy only backend source code
 COPY backend/ /app
 
+# Avoid cache from virtual environments or model files
+RUN rm -rf venv *.pt *.pkl __pycache__ .venv
+
 # Install dependencies
-RUN pip install --upgrade pip
-RUN pip install -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
-# Expose port 8000 (used by gunicorn)
-EXPOSE 8000
+# Expose the default Flask port
+EXPOSE 5000
 
-# Run the app with gunicorn
-CMD ["gunicorn", "--bind", "0.0.0.0:8000", "app:app"]
+# Start the app
+CMD ["gunicorn", "app:app", "--bind", "0.0.0.0:5000"]
