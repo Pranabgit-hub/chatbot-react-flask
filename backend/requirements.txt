@@ -3,7 +3,7 @@ flask-cors
 requests
 wikipedia
 transformers
-torch
+torch==2.1.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
 python-dotenv
 scikit-learn
 gunicorn
