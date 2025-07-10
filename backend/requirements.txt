@@ -1,4 +1,4 @@
-# Other dependencies
+# Core Flask backend dependencies
 flask
 flask-cors
 requests
@@ -8,6 +8,9 @@ scikit-learn
 python-dotenv
 gunicorn
 
-# ✅ CPU-only torch from PyTorch site (no '+cpu')
+# ✅ Pin NumPy to a compatible version
+numpy<2
+
+# ✅ CPU-only PyTorch (from official PyTorch CPU index)
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch==2.1.0
