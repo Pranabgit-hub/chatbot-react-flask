@@ -72,8 +72,8 @@ def chat():
         # Lazy-load Pegasus
         summarizer = pipeline(
             "summarization",
-            model="google/pegasus-xsum",
-            tokenizer="google/pegasus-xsum",
+            model="sshleifer/distilbart-cnn-12-6",
+            tokenizer="sshleifer/distilbart-cnn-12-6",
             framework="pt"
         )
 
@@ -96,8 +96,8 @@ def chat():
 
         gen_qa_pipeline = pipeline(
             "text2text-generation",
-            model="google/flan-t5-base",
-            tokenizer="google/flan-t5-base",
+            model="google/flan-t5-small",
+            tokenizer="google/flan-t5-small",
             framework="pt"
         )
 
