@@ -2,9 +2,11 @@ FROM python:3.10-slim
 
 WORKDIR /app
 
-COPY backend/ /app
+COPY backend/ /app/
 
 RUN rm -rf __pycache__ *.ipynb .venv .git .ipynb_checkpoints
+
+RUN ls -l /app/  # Debug step to confirm files are there
 
 RUN pip install --no-cache-dir -r requirements.txt
 
