@@ -1,0 +1,9 @@
+[build]
+  base = "chatbot"
+  publish = "chatbot/build"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
