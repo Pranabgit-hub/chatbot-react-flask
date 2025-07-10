@@ -1,22 +1,20 @@
-# Ignore Python virtual environment
-backend/venv/
+# Ignore virtual env and build artifacts
+venv/
 __pycache__/
 *.pyc
-
-# Ignore model files unless needed at runtime
+*.pyo
+*.pyd
 *.pt
 *.pkl
-
-# Ignore frontend build cache
-chatbot/node_modules/
-chatbot/.next/
-chatbot/build/
-chatbot/dist/
-
-# Git and system files
-.git
-.gitignore
+*.log
 .DS_Store
 
-# Optional:
-*.log
+# Ignore frontend if not needed in backend image
+chatbot/
+node_modules/
+dist/
+build/
+
+# Git
+.git
+.gitignore
